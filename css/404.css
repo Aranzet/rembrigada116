@@ -1,0 +1,154 @@
+html {
+    height: 100vh;
+}
+
+body {
+    background: url(../img/404-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+header,
+header .container {
+    background-color: transparent;
+}
+
+main {
+    width: 100%;
+}
+
+.page-not-found {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    transform: translate(-170px, 0);
+}
+
+.page-not-found h1 {
+    font-size: 154.3px;
+    font-family: "Next Art Bold", sans-serif;
+    line-height: 140px;
+    color: #acacb5;
+}
+
+.page-not-found-desc {
+    margin-left: 330px;
+    width: 310px;
+}
+
+.page-not-found-desc h2 {
+    font-size: 40.3px;
+    font-family: "Next Art Bold", sans-serif;
+    line-height: 40.3px;
+    color: #acacb5;
+}
+
+.page-not-found-desc p {
+    width: 260px;
+    padding: 25px 0 70px;
+    font-size: 13.43px;
+    line-height: 20.15px;
+    letter-spacing: 0.01em;
+    color: #95959d;
+}
+
+.page-not-found-desc a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 182px;
+    height: 34px;
+    margin-left: 15px;
+    background-color: #1d1e21;
+    border-radius: 17px;
+    font-family: "Next Art Light", sans-serif;
+    letter-spacing: 0.6em;
+    font-size: 12.15px;
+    text-decoration: none;
+    color: #afafaf;
+}
+
+.page-not-found-desc a:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+.page-not-found-desc a::before {
+    position: absolute;
+    left: -14px;
+    display: block;
+    content: '';
+    width: 23px;
+    height: 14px;
+    background-image: url(../img/page-arrow.png);
+}
+
+/* Адаптивность */
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    header .logo {
+        transform: translate(0);
+    }
+    .page-not-found {
+        transform: translate(-300px, 0);
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .page-not-found {
+        top: 20%;
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    header .logo {
+        position: relative;
+        left: 0;
+    }
+    .page-not-found {
+        transform: translate(-260px, 0);
+    }
+    .page-not-found-desc {
+        width: 280px;
+        margin-left: 260px;
+    }
+    .page-not-found h1 {
+        font-size: 119.86px;
+        line-height: 110px;
+    }
+    .page-not-found-desc h2 {
+        font-size: 30px;
+        line-height: 28.21px;
+    }
+    .page-not-found-desc p {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 15px 0 30px;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+    .page-not-found {
+        transform: translate(-150px, 0);
+    }
+    .page-not-found-desc {
+        width: 220px;
+        margin-left: 85px;
+    }
+    .page-not-found-desc h2 {
+        padding-top: 10px;
+        font-size: 28.21px;
+    }
+    .page-not-found-desc p {
+        width: 190px;
+        font-size: 12px;
+        line-height: 14.1px;
+    }
+}

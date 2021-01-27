@@ -1,0 +1,1384 @@
+.package-desc .container,
+.package-calculations .container,
+.package-type .container,
+.package-completed-objects .container,
+.package-essence-of-repair .container,
+.package-cost .container,
+.package-step .container {
+    width: 1155px;
+    margin: 0 auto;
+}
+
+.package-desc {
+    padding-top: 60px;
+}
+
+.package-desc .container {
+    display: flex;
+}
+
+.package-desc-img {
+    margin-left: 30px;
+}
+
+.package-desc-img .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 310px;
+    height: 310px;
+    border: 18px solid #ededed;
+}
+
+.package-desc-img p {
+    margin-top: 30px;
+    padding: 12px 4px 8px;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Next Art Bold", sans-serif;
+    letter-spacing: 0.045em;
+    background-color: #363941;
+}
+
+.package-desc-text {
+    padding: 0 100px 0 60px;
+}
+
+.package-desc-text p {
+    padding-bottom: 30px;
+    line-height: 26px;
+}
+
+.package-desc-text p:nth-child(3) {
+    padding-bottom: 50px;
+}
+
+.package-desc-text p:last-child {
+    padding-bottom: 0;
+}
+
+.package-calculations {
+    padding: 55px 0;
+}
+.package-calculations .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 20px 30px;
+    border: 1px solid #dddddd;
+    border-left: none;
+    border-right: none;
+}
+
+.package-calculations p {
+    font-size: 14px;
+    line-height: 12px;
+    color: #b6b6b6;
+}
+
+.package-calculations .average-price,
+.package-calculations .due-date {
+    display: flex;
+    align-items: center;
+}
+
+.package-calculations .average-price p {
+    padding-right: 30px;
+}
+
+.package-calculations .average-price h4,
+.package-calculations .due-date h4 {
+    letter-spacing: -0.01em;
+    width: fit-content;
+}
+
+.package-calculations .average-price h4 span {
+    font-size: 22px;
+}
+
+.package-calculations .average-price h4 span::after {
+    content: '₽';
+    padding-left: 5px;
+}
+
+.package-calculations .average-price h4 sup {
+    font-size: 10px;
+}
+
+.package-calculations .due-date p {
+    padding-right: 70px;
+}
+
+.package-calculations .due-date h4 {
+    position: relative;
+    margin-right: 64px;
+    padding: 10px 18px 5px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+}
+
+.package-calculations .due-date h4 span {
+    font-size: 22px;
+}
+
+.package-calculations .due-date .due-date-fifty p,
+.package-calculations .due-date .due-date-ninety p,
+.package-calculations .due-date .due-date-one-hundred-twenty p {
+    padding-top: 5px;
+    text-align: center;
+    color: #8f8f8f;
+}
+
+.package-calculations .due-date .due-date-fifty p sup,
+.package-calculations .due-date .due-date-ninety p sup,
+.package-calculations .due-date .due-date-one-hundred-twenty p sup {
+    font-size: 8px;
+}
+
+.package-calculations .due-date .due-date-one-hundred-twenty h4 {
+    margin-right: 0;
+}
+
+.package-type .container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.package-type .container hr {
+    margin-top: -20px;
+    height: 280px;
+    width: 1px;
+    border: none;
+    background-color: #dddddd;
+}
+
+.package-type .package-type-title {
+    display: block;
+    width: fit-content;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.package-type .package-type-title::before {
+    display: none;
+}
+
+.package-type .package-type-title:hover {
+    padding-bottom: 6px;
+    border-bottom: 3px solid #f9152e;
+    margin-bottom: 16px;
+    background-color: transparent;
+}
+
+.package-type-apartment,
+.package-type-house,
+.package-type-commercial {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+}
+
+.package-type-apartment a,
+.package-type-house a,
+.package-type-commercial a {
+    margin-left: 40px;
+}
+
+.package-type-commercial .package-type-title {
+    margin-top: -10px;
+    padding-bottom: 0;
+    margin-bottom: 22px;
+    line-height: 19px;
+}
+
+.package-type-commercial .package-type-title:hover {
+    margin-bottom: 13px;
+}
+
+.package-type a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: fit-content;
+    height: 34px;
+    padding-right: 15px;
+    color: #333333;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 34px;
+}
+
+.package-type a::before {
+    display: block;
+    content: '';
+    width: 12px;
+    height: 12px;
+    margin: auto 15px auto 8px;
+    background-color: #ed3947;
+}
+
+.package-type a:hover {
+    background-color: #ffefb0;
+}
+
+/* Выполненные обькты */
+.package-completed-objects {
+    padding-bottom: 95px;
+}
+
+.package-completed-objects .container {
+    display: flex;
+    padding: 95px 140px 60px;
+    background-color: #363941;
+}
+
+.package-completed-objects .swiper-container {
+    position: relative;
+    display: flex;
+    width: 390px;
+    height: 410px;
+    margin-left: 0;
+}
+
+.package-completed-objects .swiper-wrapper {
+    width: 335px !important;
+    height: 355px;
+}
+
+.package-completed-objects .swiper-slide {
+    width: 335px !important;
+    margin-right: 55px;
+}
+
+.package-completed-objects .swiper-container::after {
+    position: absolute;
+    top: 42px;
+    right: 0px;
+    display: block;
+    content: '';
+    width: 330px;
+    height: 360px;
+    border: 16px solid #5e6066;
+    z-index: -1;
+    box-sizing: border-box;
+}
+
+.package-completed-objects .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.package-completed-objects .slide-desc {
+    position: absolute;
+    top: 0;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 17px solid #d9d9d9;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+.package-completed-objects .slide-desc h2 {
+    width: fit-content;
+    margin: 50px 0 16px;
+    padding: 0;
+    width: 210px;
+    height: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 18.45px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    background-color: rgba(28, 30, 33, .5);
+}
+
+.package-completed-objects .slide-desc hr {
+    width: 80px;
+    height: 1px;
+    border: none;
+    background-color: #fff;
+}
+
+.package-completed-objects .slide-desc p {
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    margin: 24px 0 30px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.package-completed-objects .slide-desc a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 30px;
+    text-decoration: none;
+    background-color: #ed3947;
+}
+
+.package-completed-objects .slide-desc a:hover {
+    width: 110px;
+    background-color: #f9152e;
+
+}
+
+.package-completed-objects .slide-desc a p {
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Next Art Bold", sans-serif;
+    letter-spacing: 0.05em;
+}
+
+.package-completed-objects .swiper-button-prev {
+    top: unset;
+    bottom: 0;
+    right: 54px;
+}
+
+.package-completed-objects .swiper-button-next {
+    bottom: 0;
+    right: 25px;
+    top: unset;
+}
+
+.package-completed-objects .swiper-button-prev::before,
+.package-completed-objects .swiper-button-prev::after,
+.package-completed-objects .swiper-button-next::before,
+.package-completed-objects .swiper-button-next::after {
+    position: absolute;
+    display: block;
+    content: '';
+    background-color: #fff;
+}
+
+.package-completed-objects .swiper-button-prev::before,
+.package-completed-objects .swiper-button-next::after {
+    transform: rotate(45deg);
+}
+
+.package-completed-objects .swiper-button-next::before,
+.package-completed-objects .swiper-button-prev::after {
+    transform: rotate(-45deg);
+}
+
+.package-completed-objects .swiper-button-prev::before,
+.package-completed-objects .swiper-button-next::before {
+    top: 13px;
+}
+
+.package-completed-objects .swiper-button-next::after,
+.package-completed-objects .swiper-button-prev::after {
+    top: 8px;
+}
+
+.package-completed-objects-desc {
+    width: 425px;
+}
+
+.package-completed-objects-desc .section-title {
+    padding-top: 45px;
+    color: #fff;
+    text-align: left;
+}
+
+.package-completed-objects-desc .section-hr {
+    margin: 0 0 55px 0;
+}
+
+.package-completed-objects-desc p {
+    padding-bottom: 25px;
+    color: #98a0b7;
+    line-height: 24px;
+}
+
+.package-completed-objects-desc a {
+    color: #98a0b7;
+}
+
+.package-completed-objects-desc a:hover {
+    color: #fff;
+}
+
+/* Суть ремонта */
+.package-essence-of-repair .container {
+    position: relative;
+    padding-left: 200px;
+    padding-bottom: 130px;
+}
+
+.package-essence-of-repair h2 {
+    position: relative;
+    padding-bottom: 35px;
+    font-size: 36px;
+    font-family: "Next Art Bold", sans-serif;
+    line-height: 34px;
+}
+
+.package-essence-of-repair h2::after {
+    position: absolute;
+    top: 0;
+    left: -100px;
+    display: block;
+    content: '';
+    width: 68px;
+    height: 68px;
+    background-color: #d5d8df;
+}
+
+.package-essence-of-repair hr {
+    width: 111px;
+    height: 1px;
+    margin-bottom: 34px;
+    border: none;
+    background-color: #000;
+}
+
+.package-essence-of-repair h6 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 220px;
+    padding: 45px 30px 30px;
+    background-color: #f9f9f9;
+    border: 2px solid #e5e5e5;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.package-essence-of-repair p {
+    width: 600px;
+    padding-bottom: 35px;
+    line-height: 26px;
+}
+
+.package-essence-of-repair ul {
+    padding-left: 95px;
+}
+
+.package-essence-of-repair ul li {
+    position: relative;
+    margin-bottom: 25px;
+    list-style: none;
+}
+
+.package-essence-of-repair ul li::before {
+    position: absolute;
+    top: -7px;
+    left: -55px;
+    display: block;
+    content: '';
+    width: 36px;
+    height: 36px;
+    background-image: url(../img/list-check.png);
+}
+
+.package-essence-of-repair ul li:last-child {
+    margin-bottom: 65px;
+}
+
+.package-essence-of-repair ul li a {
+    color: #23a6f8;
+}
+
+.package-essence-of-repair .img {
+    position: relative;
+    width: 655px;
+    height: 340px;
+}
+
+.package-essence-of-repair .img::after {
+    position: absolute;
+    top: 25px;
+    right: -35px;
+    display: block;
+    content: '';
+    width: 360px;
+    height: 360px;
+    border: 16px solid #ededed;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+.package-essence-of-repair .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.package-essence-of-repair .img h6 {
+    right: -300px;
+}
+
+/* Стоимость ремонта */
+.package-cost {
+    padding: 85px 0 105px;
+    background-image: url(../img/package-cost-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+.package-cost .container {
+    padding-left: 120px;
+}
+
+.package-cost h3 {
+    padding-bottom: 35px;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 48px;
+}
+
+.package-cost p {
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+.package-cost .package-cost-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 65px 0 0 80px;
+}
+
+.package-cost .package-cost-item {
+    position: relative;
+    padding-bottom: 70px;
+}
+
+.package-cost .package-cost-item p {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+
+.package-cost .package-cost-list .package-cost-item:first-child {
+    width: 350px;
+}
+
+.package-cost .package-cost-list .package-cost-item:nth-child(2) {
+    width: 380px;
+    margin-left: 120px;
+}
+
+.package-cost .package-cost-list .package-cost-item:nth-child(2)::after {
+    display: none;
+}
+
+.package-cost .package-cost-list .package-cost-item:last-child {
+    width: 280px;
+    margin-left: 20px;
+}
+
+.package-cost .package-cost-list .package-cost-item::before {
+    position: absolute;
+    left: -105px;
+    display: block;
+    content: '';
+    width: 60px;
+    height: 60px;
+    padding: 23px;
+    border: 1px solid #9c9693;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-color: #ed3947;
+    background-clip: content-box;
+}
+
+.package-cost .package-cost-list .package-cost-item::after {
+    position: absolute;
+    top: 29px;
+    left: -270px;
+    display: block;
+    content: '';
+    width: 165px;
+    height: 1px;
+    background-color: #9c9693;
+}
+
+.package-cost h4 {
+    width: 500px;
+    margin-left: 470px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+/* Этапы ремонта */
+.package-step {
+    padding: 90px 0 60px;
+    background-color: #363941;
+    z-index: -5;
+}
+
+.package-step .section-title {
+    color: #fff;
+    font-size: 28px;
+}
+
+.package-step .package-step-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 60px 0 200px;
+}
+
+.package-step .package-step-list p {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 340px;
+    min-height: 42px;
+    margin-bottom: 20px;
+    color: #98a0b7;
+}
+
+.package-step .package-step-list p span {
+    position: absolute;
+    top: 12px;
+    left: -35px;
+    display: block;
+    font-size: 20px;
+    font-family: "Next Art Bold", sans-serif;
+    color: #b5bfda;
+    z-index: 1;
+}
+
+.package-step .package-step-list p span::before {
+    position: absolute;
+    top: -8px;
+    left: -16px;
+    display: block;
+    content: '';
+    width: 33px;
+    height: 33px;
+    border: 4px solid #ed3947;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+.scheme-of-work {
+    padding-bottom: 205px;
+}
+
+.form-callback {
+    margin-top: -140px;
+}
+
+.form-callback .form-callback-container {
+    box-shadow: none;
+}
+
+.contacts-service {
+    margin-top: -230px;
+    padding: 275px 0 45px;
+    background-position: 50% 0px;
+}
+
+/* Адаптивность */
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    .package-desc .container,
+    .package-calculations .container,
+    .package-type .container,
+    .package-completed-objects .container,
+    .package-essence-of-repair .container,
+    .package-cost .container,
+    .package-step .container {
+        width: 960px;
+    }
+    .package-desc-text {
+        padding: 0 10px 0 60px;
+    }
+    .package-calculations .average-price p {
+        padding-right: 20px;
+    }
+    .package-calculations .due-date p {
+        padding-right: 30px;
+    }
+    .package-calculations .due-date h4 {
+        margin-right: 20px;
+    }
+    .package-type .package-type-title {
+        font-size: 18px;
+    }
+    .package-type a {
+        font-size: 16px;
+    }
+    .package-completed-objects .container {
+        padding: 95px 80px 60px;
+    }
+    .package-completed-objects-desc {
+        width: 350px;
+    }
+    .package-essence-of-repair .container {
+        padding-left: 100px;
+    }
+    .package-essence-of-repair .img {
+        width: 555px;
+    }
+    .package-cost {
+        background-size: cover;
+    }
+    .package-cost .container {
+        padding-left: 60px;
+    }
+    .package-cost .package-cost-list {
+        padding-left: 40px;
+    }
+    .package-cost .package-cost-list .package-cost-item::before {
+        left: -75px;
+    }
+    .package-cost .package-cost-list .package-cost-item::after {
+        left: -240px;
+    }
+    .package-cost h4 {
+        margin-left: 370px;
+    }
+    .package-step .package-step-list {
+        padding-left: 100px;
+    }
+    .contacts-service {
+        margin-top: -245px;
+        padding: 290px 0 45px;
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .package-desc .container,
+    .package-calculations .container,
+    .package-type .container,
+    .package-essence-of-repair .container,
+    .package-cost .container, 
+    .package-step .container {
+        width: 670px;
+    }
+    .package-completed-objects .container {
+        width: 750px;
+    }
+    .package-desc {
+        padding-top: 43px;
+    }
+    .package-desc-img {
+        margin-left: 0;
+    }
+    .package-desc-img .img {
+        width: 210px;
+        height: 210px;
+        padding: 40px;
+    }
+    .package-desc-img .img img {
+        width: 100%;
+    }
+    .package-desc-img p {
+        padding: 8px 0;
+        font-size: 14px;
+    }
+    .package-desc-text {
+        margin-top: -10px;
+        padding: 0 0 0 15px;
+    }
+    .package-desc-text p {
+        padding-bottom: 15px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .package-desc-text p:nth-child(3) {
+        padding-bottom: 20px;
+    }
+    .package-calculations {
+        padding: 30px 0 35px;
+    }
+    .package-calculations .container {
+        padding: 20px 0 15px;
+    }
+    .package-calculations p {
+        font-size: 13px;
+    }
+    .package-calculations .average-price p {
+        width: 100px;
+        padding-right: 10px;
+    }
+    .package-calculations .average-price h4, .package-calculations .due-date h4 {
+        font-size: 12px;
+    }
+    .package-calculations .average-price h4 span,
+    .package-calculations .due-date h4 span {
+        font-size: 18px;
+    }
+    .package-calculations .due-date p {
+        padding-right: 10px;
+    }
+    .package-calculations .due-date h4 {
+        margin-right: 5px;
+        padding: 10px 10px 5px;
+    }
+    .package-calculations p {
+        font-size: 12px;
+    }
+    .package-type a {
+        display: flex;
+        align-items: center;
+        margin-left: -10px;
+        font-size: 13px;
+        padding-right: 0;
+        height: 24px;
+    }
+    .package-type a::before {
+        width: 6px;
+        height: 6px;
+        margin: auto 8px auto 6px;
+    }
+    .package-type .package-type-title {
+        margin: 0 0 20px;
+        font-size: 16px;
+    }
+    .package-type-house, .package-type-commercial {
+        margin-left: 20px;
+    }
+    .package-type-apartment,
+    .package-type-commercial {
+        width: 215px;
+    }
+    .package-type-house {
+        width: 220px;
+    }
+    .package-type .container hr {
+        height: 210px;
+    }
+    .package-completed-objects {
+        padding-bottom: 50px;
+    }
+    .package-completed-objects .container {
+        padding: 55px 40px 45px;
+    }
+    .package-completed-objects .swiper-container {
+        width: 330px;
+        height: 360px;
+    }
+    .package-completed-objects .swiper-container::after {
+        top: 62px;
+        width: 290px;
+        height: 290px;
+        border: 12px solid #5e6066;
+    }
+    .package-completed-objects .swiper-wrapper {
+        width: 300px !important;
+        height: 315px;
+    }
+    .package-completed-objects .swiper-slide {
+        width: 300px !important;
+        margin-right: 25px;
+    }
+    .package-completed-objects .swiper-button-next {
+        right: 15px;
+    }
+    .package-completed-objects .swiper-button-prev {
+        right: 44px;
+    }
+    .package-completed-objects-desc {
+        width: 280px;
+    }
+    .section-title {
+        font-size: 21px;
+        line-height: 20px;
+    }
+    .section-hr {
+        width: 111px;
+        margin-bottom: 45px;
+    }
+    .package-completed-objects-desc p {
+        padding-bottom: 15px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .package-completed-objects-desc a {
+        display: block;
+        width: fit-content;
+        margin-top: 15px;
+        font-size: 16px;
+    }
+    .package-essence-of-repair .container {
+        padding-left: 0;
+    }
+    .package-essence-of-repair h2 {
+        font-size: 21px;
+        line-height: 24px;
+    }
+    .package-essence-of-repair h2 br {
+        display: none;
+    }
+    .package-essence-of-repair hr {
+        display: none;
+    }
+    .package-essence-of-repair h2::after {
+        left: -50px;
+        width: 40px;
+        height: 40px;
+    }
+    .package-essence-of-repair h6 {
+        position: relative;
+        width: 100%;
+        height: fit-content;
+        padding: 25px 50px;
+        margin-bottom: 35px;
+    }
+    .package-essence-of-repair p {
+        padding-bottom: 30px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .package-essence-of-repair ul li {
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+    .package-essence-of-repair ul li::before {
+        top: -4px;
+        left: -35px;
+        width: 28px;
+        height: 28px;
+        background-size: cover;
+    }
+    .package-essence-of-repair ul li:last-child {
+        margin-bottom: 45px;
+    }
+    .package-essence-of-repair .img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        order: 1;
+    }
+    .package-essence-of-repair .img img {
+        width: 545px;
+        height: 285px;
+        order: 1;
+    }
+    .package-essence-of-repair .img::after {
+        top: 150px;
+        right: 30px;
+        width: 300px;
+        height: 300px;
+        border: 13px solid #ededed;
+    }
+    .package-essence-of-repair .img h6 {
+        left: 0;
+    }
+    .package-cost {
+        padding: 45px 0 25px;
+    }
+    .package-cost .container {
+        padding-left: 0;
+    }
+    .package-cost h3 {
+        font-size: 30px;
+        line-height: 24.57px;
+        padding-bottom: 10px;
+    }
+    .package-cost h3 br {
+        display: none;
+    }
+    .package-cost p {
+        font-size: 14px;
+    }
+    .package-cost .package-cost-list {
+        padding: 40px 0 0 60px;
+    }
+    .package-cost .package-cost-item p {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .package-cost .package-cost-item {
+        padding-bottom: 40px;
+    }
+    .package-cost .package-cost-list .package-cost-item:first-child {
+        width: 200px;
+    }
+    .package-cost .package-cost-list .package-cost-item:nth-child(2) {
+        width: 330px;
+        margin-left: 80px;
+        padding-top: 15px;
+    }
+    .package-cost .package-cost-list .package-cost-item:last-child {
+        width: 200px;
+    }
+    .package-cost .package-cost-list .package-cost-item:nth-child(2)::before,
+    .package-cost .package-cost-list .package-cost-item:last-child::before {
+        left: -40px;
+        width: 30px;
+        height: 30px;
+        padding: 11px;
+    }
+    .package-cost .package-cost-list .package-cost-item:last-child::after {
+        left: -205px;
+        top: 15px;
+    }
+    .package-cost h4 {
+        width: 310px;
+        margin-left: 340px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .package-step {
+        padding: 25px 0 18px;
+    }
+    .section-hr {
+        margin-bottom: 30px;
+    }
+    .package-step .package-step-list {
+        padding: 0 0 0 60px;
+    }
+    .package-step .package-step-list p {
+        width: 240px;
+        margin-bottom: 12px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    .package-desc .container,
+    .package-calculations .container,
+    .package-type .container,
+    .package-completed-objects .container,
+    .package-essence-of-repair .container,
+    .package-cost .container,
+    .package-step .container {
+        width: 540px;
+    }
+    .package-desc {
+        padding-top: 30px;
+    }
+    .package-desc .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .package-desc-img .img {
+        width: 200px;
+        height: 200px;
+        padding: 35px;
+        border: 12px solid #ededed;
+    }
+    .package-desc-img p {
+        margin-top: 15px;
+    }
+    .package-desc-text {
+        margin-top: 0px;
+        padding: 20px 0 0 0;
+    }
+    .package-calculations {
+        padding-bottom: 0;
+    }
+    .package-calculations .average-price {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .package-calculations .average-price p {
+        width: auto;
+        padding-right: 30px;
+    }
+    .package-calculations .due-date {
+        padding-top: 20px;
+    }
+    .package-calculations .due-date p {
+        padding-right: 30px;
+    }
+    .package-calculations .due-date h4 {
+        margin-right: 15px;
+        text-align: center;
+    }
+    .package-type .container{
+        flex-wrap: wrap;
+    }
+    .package-type-apartment, .package-type-house {
+        border-bottom: 1px solid #dddddd;
+    }
+    .package-type-house, .package-type-commercial {
+        margin-left: 0;
+    }
+    .package-type-apartment, .package-type-house, .package-type-commercial {
+        width: 100%;
+        padding: 20px 0 25px;
+    }
+    .package-type .container hr {
+        display: none;
+    }
+    .package-type .package-type-title {
+        margin: 0 auto 20px auto;
+    }
+    .package-type a {
+        margin-left: 20px;
+    }
+    .package-completed-objects .container {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .package-completed-objects .swiper-container {
+        width: 100%;
+        height: 560px;
+    }
+    .package-completed-objects .swiper-container::after {
+        top: 260px;
+        right: -20px;
+    }
+    .package-completed-objects .swiper-wrapper {
+        width: 100% !important;
+        height: 515px;
+    }
+    .package-completed-objects .swiper-slide {
+        width: 100% !important;
+        margin-right: 0px;
+    }
+    .package-completed-objects .slide-desc h2 {
+        width: 410px;
+        margin-bottom: 40px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .package-completed-objects .slide-desc p {
+        font-size: 18px;
+        padding: 0 40px;
+        margin: 40px 0 60px;
+    }
+    .package-completed-objects .slide-desc a {
+        width: 110px;
+    }
+    .package-completed-objects .slide-desc a:hover {
+        width: 140px;
+    }
+    .package-completed-objects-desc {
+        width: 100%;
+    }
+    .package-completed-objects-desc .section-title,
+    .package-completed-objects-desc .section-hr {
+        display: none;
+    }
+    .package-completed-objects-desc p {
+        padding-top: 10px;
+    }
+    .package-completed-objects-desc a {
+        margin-top: 5px;
+    }
+    .package-essence-of-repair h2 {
+        margin-left: 40px;
+    }
+    .package-essence-of-repair p {
+        width: 100%;
+    }
+    .package-cost .package-cost-list {
+        padding-left: 40px;
+    }
+    .package-cost .package-cost-list .package-cost-item:first-child,
+    .package-cost .package-cost-list .package-cost-item:nth-child(2),
+    .package-cost .package-cost-list .package-cost-item:last-child,
+    .package-step .package-step-list p {
+        width: 100%;
+    }
+    .package-cost .package-cost-list .package-cost-item:nth-child(2),
+    .package-cost .package-cost-list .package-cost-item:last-child {
+        margin-left: 0;
+    }
+    .package-cost .package-cost-list .package-cost-item::before {
+        left: -40px;
+        width: 30px;
+        height: 30px;
+        padding: 11px;
+    }
+    .package-cost .package-cost-list .package-cost-item::after {
+        display: none;
+    }
+    .package-cost h4 {
+        margin-left: 240px;
+    }
+    .scheme-of-work {
+        padding-bottom: 165px;
+    }
+    .scheme-of-work-list {
+        width: 500px;
+    }
+    .scheme-of-work-item p {
+        font-size: 16px;
+        line-height: 14px;
+    }
+    .contacts-service {
+        margin-top: -320px;
+        padding: 365px 0 45px;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+    .page-title h1 {
+        font-size: 32px;
+        line-height: 28px;
+        letter-spacing: 0.01em;
+    }
+    .package-desc .container,
+    .package-calculations .container,
+    .package-type .container,
+    .package-essence-of-repair .container,
+    .package-cost .container,
+    .package-step .container {
+        width: 90%;
+    }
+    .package-calculations .container,
+    .package-calculations .due-date .due-date-fifty {
+        padding-bottom: 10px;
+    }
+    .package-calculations p {
+        font-size: 14px;
+    }
+    .package-calculations .due-date {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .package-calculations .due-date h4 {
+        width: 125px;
+        margin-right: 0;
+    }
+    .due-date-ninety {
+        padding-left: 8px;
+    }
+    .package-completed-objects .container {
+        width: 100%;
+        padding: 55px 0 45px;
+    }
+    .package-completed-objects .swiper-container {
+        height: 395px;
+    }
+    .package-completed-objects .swiper-wrapper {
+        height: 360px;
+    }
+    .package-completed-objects .swiper-container::after {
+        top: 96px;
+    }
+    .package-completed-objects-desc {
+        padding: 0 20px;
+    }
+    
+    .package-calculations .due-date .due-date-fifty p {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .package-completed-objects .swiper-container {
+        margin-top: 80px;
+    }
+    .package-completed-objects-desc .section-title,
+    .package-completed-objects-desc .section-hr {
+        display: block !important;
+    }
+    .package-completed-objects-desc .section-hr {
+        margin-bottom: 420px;
+    }
+    .package-completed-objects-desc .section-title {
+        margin-top: -520px;
+    }
+    .package-completed-objects .slide-desc h2 {
+        width: 210px;
+        font-size: 17px;
+        line-height: 18.45px;
+        margin-bottom: 15px;
+    }
+    .package-completed-objects .slide-desc p {
+        padding: 0 20px;
+        margin: 25px 0 30px;
+        font-size: 14px;
+    }
+    .package-step .section-title {
+        font-size: 18px;
+    }
+    .package-essence-of-repair .container {
+        padding-bottom: 65px;
+    }
+    .package-essence-of-repair h2 {
+        padding-bottom: 30px;
+    }
+    .package-essence-of-repair h6 {
+        padding: 25px 30px;
+        margin-bottom: 25px;
+    }
+    .package-essence-of-repair ul {
+        padding-left: 40px;
+    }
+    .package-essence-of-repair ul li::before {
+        top: 0;
+    }
+    .package-essence-of-repair ul li:last-child {
+        margin-bottom: 30px;
+    }
+    .package-essence-of-repair .img {
+        height: auto;
+    }
+    .package-essence-of-repair .img h6 {
+        display: none;
+    }
+    .package-essence-of-repair .img img {
+        width: 270px;
+        height: 140px;
+    }
+    .package-essence-of-repair .img::after {
+        top: 10px;
+        right: -5px;
+        width: 150px;
+        height: 150px;
+        border: 7px solid #ededed;
+    }
+    .package-cost h3 {
+        font-size: 26px;
+        line-height: 24px;
+    }
+    .package-cost p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .package-cost .package-cost-list {
+        padding-top: 25px;
+    }
+    .package-cost .package-cost-item {
+        padding-bottom: 30px;
+    }
+    .package-cost .package-cost-list .package-cost-item:nth-child(2) {
+        padding-top: 0;
+    }
+    .package-cost h4 {
+        width: 210px;
+        margin-left: 90px;
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .scheme-of-work {
+        padding-bottom: 45px;
+    }
+    .scheme-of-work-list {
+        width: 100%;
+    }
+    .form-callback {
+        margin-top: 0;
+        padding-bottom: 25px;
+        background-color: #ed3947;
+    }
+    .contacts-service {
+        margin: 0;
+        padding: 0;
+    }
+}

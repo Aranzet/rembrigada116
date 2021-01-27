@@ -1,0 +1,476 @@
+.repair-selected-object {
+    padding: 60px 0 105px;
+}
+
+.repair-selected-object .advantages-repair {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 60px;
+    padding: 40px 100px 40px 85px;
+    background-color: #363941;
+}
+
+.repair-selected-object .advantages-repair p,
+.repair-selected-object .decision-steps .decision-steps-paragraph p {
+    position: relative;
+    width: 220px;
+    line-height: 22px;
+    color: #98a0b7;
+}
+
+.repair-selected-object .advantages-repair p:last-child {
+    width: 190px;
+}
+
+.repair-selected-object .advantages-repair p span,
+.repair-selected-object .decision-steps .decision-steps-paragraph p span,
+.order-term-repair .term-list p span {
+    position: absolute;
+    top: 12px;
+    left: -35px;
+    display: block;
+    font-size: 20px;
+    font-family: "Next Art Bold", sans-serif;
+    color: #b5bfda;
+    z-index: 1;
+}
+
+.repair-selected-object .advantages-repair p span::before,
+.repair-selected-object .decision-steps .decision-steps-paragraph p span::before,
+.order-term-repair .term-list p span::before {
+    position: absolute;
+    top: -8px;
+    left: -16px;
+    display: block;
+    content: '';
+    width: 33px;
+    height: 33px;
+    border: 4px solid #ed3947;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+.repair-selected-object .we-dont-care {
+    padding: 30px 0 50px;
+}
+
+.repair-selected-object .our-advantages-list {
+    padding-left: 100px;
+}
+
+.repair-selected-object ul li {
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+}
+
+.repair-selected-object .house-cut {
+    position: relative;
+    padding: 40px 0 100px;
+}
+
+.repair-selected-object .house-cut::after {
+    top: 195px;
+    right: -35px;
+}
+
+.repair-selected-object .repair-solutions hr {
+    margin: 30px 0;
+}
+
+.repair-selected-object .decision {
+    margin-bottom: 35px;
+    padding: 30px 0;
+    border: 1px solid #e2e2e2;
+    border-left: none;
+    border-right: none;
+}
+
+.repair-selected-object .decision span {
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.repair-selected-object .decision-steps {
+    margin-bottom: 60px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.repair-selected-object .decision-steps p {
+    padding-left: 95px;
+}
+
+.repair-selected-object .decision-steps .decision-steps-paragraph {
+    padding: 35px 85px 30px 145px;
+    background-color: #363941;
+}
+
+.repair-selected-object .decision-steps .decision-steps-paragraph:first-child {
+    margin: 25px 0;
+}
+
+.repair-selected-object .decision-steps .decision-steps-paragraph:nth-child(3) {
+    margin: 45px 0 30px;
+}
+
+.repair-selected-object .decision-steps .decision-steps-paragraph p {
+    width: auto;
+    padding-left: 0;
+}
+
+.repair-selected-object .repair-solutions .desc-img p {
+    padding-bottom: 30px;
+}
+
+.repair-selected-object .repair-solutions .desc-img img {
+    margin: 15px 0 45px;
+}
+
+.repair-selected-object .redevelopment-options p {
+    padding-bottom: 25px;
+}
+
+.repair-selected-object .redevelopment-options-list {
+    margin-bottom: 50px;
+    padding: 20px 0 50px 100px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.repair-selected-object .redevelopment-options-list li {
+    width: 560px;
+}
+
+.repair-selected-object .redevelopment-options-list li:first-child {
+    width: 500px;
+}
+
+.repair-selected-object .quote {
+    margin: 35px 0 65px;
+    padding: 55px 60px;
+}
+
+.repair-selected-object .quote::after {
+    top: -40px;
+    right: -45px;
+}
+
+.repair-selected-object .place-for-yourself .decision {
+    margin: 55px 0 35px;
+    padding-bottom: 30px;
+}
+
+.repair-selected-object .place-for-yourself p {
+    padding-bottom: 35px;
+}
+
+.repair-selected-object .place-for-yourself .quote {
+    margin-bottom: 45px;
+    padding: 100px 60px;
+}
+
+.order-term-repair {
+    padding: 90px 0 110px;
+    background-color: #363941;
+}
+
+.order-term-repair .container {
+    width: 1155px;
+}
+
+.order-term-repair .section-title {
+    color: #fff;
+}
+
+.order-term-repair .section-hr {
+    margin-bottom: 60px;
+}
+
+.order-term-repair p {
+    padding-bottom: 12px;
+    text-align: center;
+    color: #98a0b7;
+    line-height: 18px;
+}
+
+.order-term-repair .term-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 125px 0 150px;
+}
+
+.order-term-repair .term-list p {
+    position: relative;
+    text-align-last: left;
+}
+
+
+
+/* Адаптивность */
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    .page-title h1 {
+        font-size: 48px;
+    }
+    .contacts-service {
+        margin-top: -245px;
+        padding: 290px 0 45px;
+    }
+    .order-term-repair .container {
+        width: 960px;
+    }
+    .order-term-repair .term-list {
+        padding: 70px 0 0 60px;
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .repair-selected-object img {
+        width: 100%;
+    }
+    .page-title h1 {
+        font-size: 28px;
+    }
+    .repair-selected-object {
+        padding: 30px 0 60px;
+    }
+    .repair-selected-object p {
+        font-size: 16px;
+        line-height: 18px;  
+    }
+    .repair-selected-object .advantages-repair {
+        margin: 18px 0 22px;
+        padding: 35px 55px 35px 70px;
+    }
+    .repair-selected-object .decision-steps .decision-steps-paragraph p {
+        line-height: 19px;
+    }
+    .repair-selected-object .we-dont-care {
+        padding: 20px 0 35px;
+    }
+    .repair-selected-object .our-advantages-list {
+        padding-left: 60px;
+    }
+    .repair-selected-object ul li {
+        width: 495px;
+        min-height: 32px;
+        padding-left: 35px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .repair-selected-object ul li::before {
+        width: 28px;
+        height: 28px;
+        background-size: cover;
+    }
+    .repair-selected-object .house-cut {
+        padding: 35px 0 100px;
+    }
+    .repair-selected-object .repair-solutions h2 {
+        width: auto;
+        padding-bottom: 55px;
+    }
+    .repair-selected-object .decision {
+        margin-bottom: 25px;
+        padding: 25px 0;
+    }
+    .repair-selected-object .decision-steps .decision-steps-paragraph:first-child {
+        margin: 20px 0 15px;
+    }
+    .repair-selected-object .decision-steps .decision-steps-paragraph:nth-child(3) {
+        margin: 25px 0 15px;
+    }
+    .repair-selected-object .decision-steps {
+        margin-bottom: 20px;
+        padding-bottom: 45px;
+    }
+    .repair-selected-object .decision-steps p {
+        padding-left: 110px;
+    }
+    .repair-selected-object .repair-solutions .desc-img p {
+        padding-bottom: 15px;
+    }
+    .repair-selected-object .repair-solutions .desc-img img {
+        margin-bottom: 25px;
+    }
+    .repair-selected-object .redevelopment-options-list {
+        margin-bottom: 20px;
+        padding: 10px 0 35px 65px;
+    }
+    .repair-selected-object ul li::before {
+        top: 0;
+    }
+    .repair-selected-object .redevelopment-options p {
+        padding-bottom: 15px;
+    }
+    .repair-selected-object .quote {
+        margin: 5px 0 35px;
+        padding: 50px 55px;
+    }
+    .repair-selected-object .quote::after {
+        top: -25px;
+        right: -25px;
+    }
+    .repair-selected-object .quote p {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .repair-selected-object .place-for-yourself .decision {
+        margin: 25px 0 20px;
+        padding-bottom: 25px;
+    }
+    .repair-selected-object .place-for-yourself p {
+        padding-bottom: 15px;
+    }
+    .repair-selected-object .place-for-yourself .quote {
+        margin-bottom: 27px;
+        padding: 60px 55px 55px;
+    }
+    .section-title {
+        font-size: 18px;
+    }
+    .order-term-repair {
+        padding: 30px 0 35px;
+    }
+    .order-term-repair .section-hr {
+        margin-bottom: 25px;
+    }
+    .order-term-repair p {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .order-term-repair .term-list {
+        padding: 30px 0 0 60px;
+    }
+    .order-term-repair .container {
+        width: 660px;
+    }
+    .order-term-repair .term-list p {
+        width: 145px;
+    }
+    .order-term-repair .term-list p:first-child br {
+        display: none;
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    .repair-selected-object {
+        padding: 25px 0 25px;
+    }
+    .repair-selected-object .advantages-repair {
+        flex-wrap: wrap;
+        margin: 10px 0 20px;
+        padding: 25px 30px 30px 60px;
+    }
+    .repair-selected-object .advantages-repair p,
+    .repair-selected-object .advantages-repair p:last-child {
+        width: 100%;
+    }
+    .repair-selected-object .advantages-repair p:last-child {
+        margin-top: 25px;
+    }
+    .repair-selected-object .we-dont-care {
+        padding: 15px 0 20px;
+    }
+    .repair-selected-object .our-advantages-list,
+    .repair-selected-object .redevelopment-options-list {
+        padding-left: 5px;
+    }
+    .repair-selected-object ul li {
+        width: 100%;
+    }
+    .repair-selected-object .house-cut {
+        padding: 10px 0 55px;
+    }
+    .repair-selected-object .house-cut::after {
+        top: 90px;
+        right: -13px;
+    }
+    .repair-selected-object .repair-solutions h2 {
+        padding-bottom: 25px;
+    }
+    .about-us .quality-repair h2::before, .repair-selected-object .repair-solutions h2::before {
+        left: -12px;
+    }
+    .repair-selected-object .decision {
+        display: flex;
+        flex-direction: column;
+    }
+    .repair-selected-object .decision span {
+        padding-bottom: 10px;
+    }
+    .repair-selected-object .decision-steps .decision-steps-paragraph {
+        padding: 25px 55px 20px 65px;
+    }
+    .repair-selected-object .decision-steps p {
+        padding-left: 50px;
+    }
+    .repair-selected-object .decision-steps {
+        padding-bottom: 30px;
+    }
+    .repair-selected-object .redevelopment-options-list li,
+    .repair-selected-object .redevelopment-options-list li:first-child {
+        width: 100%;
+    }
+    .repair-selected-object .quote,
+    .repair-selected-object .place-for-yourself .quote {
+        padding: 30px 28px 35px;
+        margin-bottom: 25px;
+    }
+    .repair-selected-object .place-for-yourself .quote p {
+        padding-bottom: 0;
+    }
+    .repair-selected-object .quote::after {
+        top: -13px;
+        right: -13px;
+    }
+    .repair-selected-object .quote p {
+        font-size: 17.18px;
+        line-height: 21.47px;
+    }
+    .order-term-repair .container {
+        width: 90%;
+    }
+    .order-term-repair .term-list {
+        flex-wrap: wrap;
+    }
+    .order-term-repair .term-list p {
+        width: 100%;
+    }
+    .scheme-of-work {
+        padding-bottom: 135px;
+    }
+    .scheme-of-work-item p {
+        font-size: 16px;
+        line-height: 14px;
+    }
+    .contacts-service {
+        margin-top: -350px;
+        padding: 395px 0 45px;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+    .scheme-of-work {
+        padding-bottom: 30px;
+    }
+    .form-callback {
+        margin-top: 0;
+        padding-bottom: 25px;
+        background-color: #ed3947;
+    }
+    .contacts-service {
+        margin: 0;
+        padding: 0;
+    }
+    .repair-selected-object .container {
+        padding-left: 12px;
+    }
+    .repair-selected-object .quote {
+        margin-left: -12px;
+    }
+}

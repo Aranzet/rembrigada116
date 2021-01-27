@@ -1,0 +1,697 @@
+/* Наши работы */
+
+.our-work,
+.our-work-section .container,
+.form-callback .form-callback-container {
+    width: 1156px;
+    margin: 0 auto;
+    padding: 50px 0 55px;
+}
+
+.our-work .page-desk,
+.our-work-section .page-desk {
+    width: 720px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.our-work .page-desk {
+    line-height: 26px;
+}
+
+.our-work .our-work-list,
+.our-work-section .our-work-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.our-work .our-work-item,
+.our-work-section .our-work-item {
+    position: relative;
+    width: 560px;
+    height: 420px;
+    margin-bottom: 35px;
+}
+
+.our-work .our-work-item img,
+.our-work-section .our-work-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.our-work .our-work-item-desc,
+.our-work .our-work-item-desc-full,
+.our-work-section .our-work-item-desc {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.our-work .our-work-item-desc h2,
+.our-work .our-work-item-desc-full h2,
+.our-work-section .our-work-item-desc h2 {
+    padding: 0 10px;
+    margin: 205px 0 45px;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: "Next Art Bold", sans-serif;
+    background-color: rgba(28, 30, 33, 0.5);
+    letter-spacing: 0.05em;
+}
+
+.our-work .our-work-item-desc a,
+.our-work .our-work-item-desc-full a,
+.our-work-section .our-work-item-desc a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 42px;
+    background-color: #ed3947;
+    font-size: 20px;
+    font-family: "Next Art Bold", sans-serif;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    color: #fff;
+    transition: ease .5s;
+}
+
+.our-work .our-work-item-desc a:hover,
+.our-work .our-work-item-desc-full a:hover,
+.our-work-section .our-work-item-desc a:hover {
+    width: 155px;
+    background-color: #f9152e;
+    transition: ease .5s;
+}
+
+.our-work .our-work-item-desc-full,
+.our-work-section .our-work-item-desc {
+    display: none;
+    border: 25px solid #d9d9d9;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.our-work .our-work-item-desc-full h2,
+.our-work-section .our-work-item-desc h2 {
+    margin: 90px 0 38px;
+}
+
+.our-work .our-work-item-desc-full hr,
+.our-work-section .our-work-item-desc hr {
+    width: 111px;
+    height: 1px;
+    border: none;
+    background-color: #fff;
+}
+
+.our-work .our-work-item-desc-full p,
+.our-work-section .our-work-item-desc p {
+    width: 340px;
+    text-align: center;
+    padding-top: 35px;
+    letter-spacing: 0.05em;
+}
+
+.our-work .our-work-item-desc-full a,
+.our-work-section .our-work-item-desc a {
+    margin-top: 25px;
+}
+
+.form-callback .form-callback-container {
+    position: relative;
+    padding: 60px 100px 55px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 1px rgb(32, 32, 32);
+    z-index: 10;
+}
+
+.form-callback h3 {
+    padding-bottom: 15px;
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+    font-family: "Next Art Bold", sans-serif;
+    letter-spacing: 0.01em;
+}
+
+.form-callback p {
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: #484848;
+}
+
+.form-callback form,
+.repair-apartments .container form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 33px 30px 100px;
+    background-color: #5d6270;
+}
+
+.form-callback form input,
+.repair-apartments .container form input {
+    width: 280px;
+    height: 50px;
+    padding: 0 20px;
+    border: 2px solid #6c7483;
+    font-size: 18px;
+}
+
+.form-callback form input::placeholder,
+.repair-apartments .container form input::placeholder {
+    font-size: 18px;
+    color: #505661;
+}
+
+.form-callback form button,
+.repair-apartments .container form button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 182px;
+    height: 60px;
+    margin-right: 71px;
+    background-color: #d52437;
+    border: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    cursor: pointer;
+}
+
+.form-callback form button:hover,
+.repair-apartments .container form button:hover {
+    background-color: #f9152e;
+    border: 3px solid #d52437;
+}
+
+.form-callback form button p,
+.repair-apartments .container form button p {
+    width: 100%;
+    padding-bottom: 0;
+    font-size: 20px;
+    font-family: "Next Art Bold", sans-serif;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.form-callback form button span,
+.repair-apartments .container form button span {
+    position: absolute;
+    right: -71px;
+    display: block;
+    width: 68px;
+    height: 60px;
+    background-color: #d52437;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.form-callback form button:hover span,
+.repair-apartments .container form button:hover span {
+    background-color: #f9152e;
+    border: 3px solid #d52437;
+    border-left: none;
+}
+
+.form-callback form button span::before,
+.form-callback form button span::after,
+.repair-apartments .container form button span::before,
+.repair-apartments .container form button span::after {
+    position: absolute;
+    left: 25px;
+    display: block;
+    content: '';
+    width: 14px;
+    height: 4px;
+    background-color: #fff;
+}
+
+.form-callback form button span::before,
+.repair-apartments .container form button span::before {
+    top: 23px;
+    transform: rotate(45deg);
+}
+
+.form-callback form button:hover span::before,
+.repair-apartments .container form button:hover span::before {
+    top: 20px;
+}
+
+.form-callback form button span::after,
+.repair-apartments .container form button span::after {
+    top: 30px;
+    transform: rotate(-45deg);
+}
+
+.form-callback form button:hover span::after,
+.repair-apartments .container form button:hover span::after {
+    top: 27px;
+}
+
+.form-callback form #agreements,
+.repair-apartments .container form #agreements {
+    display: none;
+}
+
+.form-callback form label,
+.repair-apartments .container form label {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+    padding: 8px 0 0 25px;
+    font-size: 12px;
+    color: #7e8798;
+}
+
+.form-callback form label span,
+.repair-apartments .container form label span {
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border: 1px solid #0a0f37;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.form-callback form label a,
+.repair-apartments .container form label a {
+    padding: 0 4px;
+    color: #929db0;
+}
+
+.form-callback form input:checked + label span .checked::before,
+.form-callback form input:checked + label span .checked::after,
+.repair-apartments .container form input:checked + label span .checked::before,
+.repair-apartments .container form input:checked + label span .checked::after {
+    position: relative;
+    display: block;
+    content: '';
+    height: 3px;
+    background-color: #0a0f37;
+}
+
+.form-callback form input:checked + label span .checked::before,
+.repair-apartments .container form input:checked + label span .checked::before {
+    top: 7px;
+    left: 1px;
+    width: 6px;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+
+.form-callback form input:checked + label span .checked::after,
+.repair-apartments .container form input:checked + label span .checked::after {
+    top: 3px;
+    left: 3px;
+    width: 10px;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+
+.contacts-service {
+    margin-top: -210px;
+    padding: 255px 0 45px;
+    background-image: url(../img/map-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 140px;
+}
+
+.contacts-service .container {
+    display: flex;
+    justify-content: space-between;
+    width: 1156px;
+    margin: 0 auto;
+}
+
+.contacts-service .service a {
+    padding-bottom: 12px;
+    color: #f6f7fb;
+}
+
+.contacts-service .service a:nth-child(5) {
+    padding-bottom: 36px;
+}
+
+.contacts-service .service p {
+    display: flex;
+    align-items: center;
+    background-image: url(../img//info.png);
+    color: #f6f7fb;
+}
+
+.contacts-service .service p span:last-child {
+    display: none;
+}
+
+.contacts-service .service p {
+    color: #8792a4;
+}
+
+.contacts-service .service p a {
+    padding: 0 0 0 25px;
+    color: #8792a4;
+}
+
+.scroll-up {
+    z-index: 100;
+}
+
+/* Адаптивность */
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    .our-work, .our-work-section .container, .form-callback .form-callback-container,
+    .contacts-service .container {
+        width: 960px;
+    }
+    .our-work .our-work-item,
+    .our-work-section .our-work-item {
+        width: 460px;
+        height: 360px;
+    }
+    .our-work .our-work-item-desc h2 {
+        margin-top: 165px;
+    }
+    .our-work .our-work-item-desc-full h2,
+    .our-work-section .our-work-item-desc h2 {
+        margin: 50px 0 38px;
+    }
+    .form-callback form,
+    .repair-apartments .container form {
+        padding: 30px 40px 30px 35px;
+    }
+    .form-callback form input,
+    .repair-apartments .container form input {
+        width: 336px;
+    }
+    .form-callback form button,
+    .repair-apartments .container form button {
+        margin-top: 10px;
+        order: 1;
+    }
+    .form-callback form label,
+    .repair-apartments .container form label {
+        flex-wrap: wrap;
+        width: 380px;
+    }
+    .contacts-service .contacts,
+    .contacts-service .service {
+        width: 460px;
+        padding: 40px 60px;
+    }
+    .contacts-service .service p a {
+        padding-left: 10px;
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .our-work, .our-work-section .container, .form-callback .form-callback-container, .contacts-service .container {
+        width: 750px;
+    }
+    .our-work
+    .our-work-section {
+        padding: 40px 0 13px;
+    }
+    .our-work .page-desk,
+    .our-work-section .page-desk {
+        width: 670px;
+        padding-bottom: 25px;
+        font-size: 16px;
+    }
+    .our-work .our-work-item,
+    .our-work-section .our-work-item {
+        width: 366px;
+        height: 270px;
+        margin-bottom: 17px;
+    }
+    .our-work .our-work-item-desc h2,
+    .our-work .our-work-item-desc-full h2,
+    .our-work-section .our-work-item-desc h2 {
+        margin: 134px 0 28px;
+        font-size: 24px;
+    }
+    .our-work .our-work-item-desc a,
+    .our-work .our-work-item-desc-full a,
+    .our-work-section .our-work-item-desc a {
+        width: 83px;
+        height: 27px;
+        font-size: 13px;
+    }
+    .our-work .our-work-item-desc-full,
+    .our-work-section .our-work-item-desc {
+        border: 15px solid #d9d9d9;
+    }
+    .our-work .our-work-item-desc-full h2,
+    .our-work-section .our-work-item-desc h2 {
+        margin: 60px 0 25px;
+    }
+    .our-work .our-work-item-desc-full hr,
+    .our-work-section .our-work-item-desc hr {
+        width: 73px;
+    }
+    .our-work .our-work-item-desc-full p,
+    .our-work-section .our-work-item-desc p {
+        width: 240px;
+        padding-top: 22px;
+        font-size: 12px;
+    }
+    .our-work .our-work-item-desc-full a,
+    .our-work-section .our-work-item-desc a {
+        margin-top: 15px;
+    }
+    .our-work .our-work-item-desc a:hover,
+    .our-work .our-work-item-desc-full a:hover,
+    .our-work-section .our-work-item-desc a:hover {
+        width: 100px;
+    }
+    .form-callback .form-callback-container {
+        padding: 35px 40px;
+    }
+    .form-callback h3 {
+        font-size: 26.27px;
+        padding-bottom: 15px;
+    }
+    .form-callback p {
+        padding-bottom: 10px;
+    }
+    .form-callback form input,
+    .repair-apartments .container form input {
+        width: 290px;
+    }
+    .form-callback form label,
+    .repair-apartments .container form label {
+        width: 300px;
+    }
+    .contacts-service {
+        margin-top: 30px;
+        padding: 30px 0 45px;
+        background-position: 50% 0px;
+    }
+    .contacts-service .contacts,
+    .contacts-service .service {
+        width: 326px;
+        padding: 25px 30px 40px;
+        font-size: 14px;
+    }
+    .contacts-service .container {
+        width: 670px;
+    }
+    .contacts-service .contacts , .contacts-service .service {
+        padding-bottom: 15px;
+    }
+    .contacts-service .contacts a {
+        margin-bottom: 75px;
+    }
+    .contacts-service .service a:nth-child(5) {
+        padding-bottom: 82px;
+    }
+    .contacts-service .contacts p:last-child, .contacts-service .service p {
+        padding: 0 0 0 25px;
+        background-size: 16px;
+    }
+    .contacts-service .contacts p:last-child span {
+        padding-left: 8px;
+    }
+    .contacts-service .service p span:first-child {
+        display: none;
+    }
+    .contacts-service .service p span:last-child {
+        display: block;
+    }
+    .contacts-service .service p a {
+        padding-left: 25px;
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    .our-work, .our-work-section .container, .form-callback .form-callback-container, .contacts-service .container {
+        width: 540px;
+    }
+    .our-work .page-desk,
+    .our-work-section .page-desk {
+        width: 90%;
+        padding-bottom: 20px;
+    }
+    .our-work .our-work-item,
+    .our-work-section .our-work-item {
+        width: 100%;
+        height: 360px;
+    }
+    .our-work .our-work-item-desc h2,
+    .our-work .our-work-item-desc-full h2,
+    .our-work-section .our-work-item-desc h2 {
+        margin: 134px 0 48px;
+        font-size: 36px;
+    }
+    .our-work .our-work-item-desc-full h2,
+    .our-work-section .our-work-item-desc h2 {
+        margin-top: 74px;
+    }
+    .our-work .our-work-item-desc a,
+    .our-work .our-work-item-desc-full a,
+    .our-work-section .our-work-item-desc a {
+        width: 130px;
+        height: 42px;
+        font-size: 20px;
+    }
+    .our-work .our-work-item-desc a:hover,
+    .our-work .our-work-item-desc-full a:hover,
+    .our-work-section .our-work-item-desc a:hover {
+        width: 155px;
+    }
+    .our-work .our-work-item-desc-full p,
+    .our-work-section .our-work-item-desc p {
+        width: 340px;
+        padding-top: 22px;
+        font-size: 18px;
+    }
+    .form-callback form input {
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 0 15px;
+    }
+    .form-callback form input::placeholder {
+        font-size: 14px;
+    }
+    .form-callback form label {
+        width: 100%;
+        padding-top: 0;
+    }
+    .form-callback form button {
+        margin-top: 14px;
+    }
+    .contacts-service .container {
+        flex-wrap: wrap;
+    }
+    .contacts-service .contacts,
+    .contacts-service .service {
+        width: 100%;
+    }
+    .contacts-service .contacts {
+        margin-bottom: 25px;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+    .page-title h1 {
+        margin-left: 0;
+    }
+    .our-work,
+    .our-work-section .container {
+        width: 90%;
+        padding: 20px 0 0;
+    }
+    .our-work .page-desk,
+    .our-work-section .page-desk {
+        width: 280px;
+        padding-bottom: 15px;
+        font-size: 18px;
+    }
+    .our-work .our-work-item,
+    .our-work-section .our-work-item {
+        height: 226px;
+        margin-bottom: 8px;
+    }
+    .our-work .our-work-item-desc,
+    .our-work-section .our-work-item-desc {
+        display: flex !important;
+    }
+    .our-work .our-work-item-desc-full {
+        display: none !important;
+    }
+    .our-work .our-work-item-desc h2,
+    .our-work-section .our-work-item-desc h2 {
+        margin: 110px 0 22px;
+        font-size: 20px;
+    }
+    .our-work .our-work-item-desc a,
+    .our-work-section .our-work-item-desc a {
+        width: 73px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .our-work .our-work-item-desc a:hover,
+    .our-work-section .our-work-item-desc a:hover {
+        width: 90px;
+    }
+    .form-callback .form-callback-container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 30px 0px 15px;
+        background-color: #fff;
+        box-shadow: none;
+    }
+    .form-callback h3 {
+        font-size: 24px;
+        line-height: 22px;
+        padding-bottom: 15px;
+    }
+    .form-callback p {
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+    .form-callback form {
+        padding: 15px 10px;
+    }
+    .contacts-service {
+        margin-top: 0;
+        padding: 0;
+        background-image: none;
+    }
+    .contacts-service .container {
+        width: 100%;
+    }
+    .contacts-service .contacts {
+        min-height: fit-content;
+        margin-bottom: 0;
+        padding: 30px 10px 20px;
+    }
+    .contacts-service .contacts a {
+        margin-bottom: 25px;
+    }
+    .contacts-service .service {
+        display: none;
+    }
+}

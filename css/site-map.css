@@ -1,0 +1,369 @@
+hr {
+    width: 960px;
+    height: 1px;
+    margin: 0 auto;
+    border: none;
+    background-color: #efefef;
+}
+
+/* Карта сайта */
+.site-map,
+.agreement-privacy-policy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 1010px;
+    padding: 5px 0 35px 50px;
+    margin: 0 auto;
+}
+
+.site-map ul,
+.agreement-privacy-policy a {
+    width: 380px;
+}
+
+.site-map ul li {
+    position: relative;
+    padding-top: 45px;
+    list-style: none;
+}
+
+/* Кнопка сварачивания, разварачивания */
+.site-map ul li .deploy {
+    position: absolute;
+    left: -48px;
+    width: 34px;
+    height: 34px;
+    border: 2px solid #bcbcbc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.site-map ul li .deploy-active::before,
+.site-map ul li .deploy-active::after,
+.site-map ul li .deploy::before {
+    position: absolute;
+    top: 14px;
+    left: 9px;
+    display: block;
+    content: '';
+    width: 12px;
+    height: 2px;
+    background-color: #000;
+}
+
+.site-map ul li .deploy-active::before {
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+
+.site-map ul li .deploy:hover {
+    background-color: #d7d7d7;
+}
+
+.site-map ul li a {
+    color: #333333;
+    font-family: "Next Art Bold", sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.site-map ul li a::after,
+.agreement-privacy-policy a::after {
+    display: block;
+    content: '';
+    width: 68px;
+    height: 3px;
+    margin-top: 4px;
+    background-color: #cacaca;
+}
+
+.agreement-privacy-policy a:hover,
+.site-map ul li a:hover {
+    color: #f9152e;
+}
+
+.site-map ul li a:hover::after,
+.agreement-privacy-policy a:hover::after {
+    background-color: #f9152e;
+}
+
+/* Выпадающее меню первого уровня */
+.site-map-firs-level {
+    padding-left: 7px;
+}
+
+.site-map .site-map-firs-level li {
+    padding-top: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.site-map .site-map-firs-level li:first-child {
+    padding-top: 10px;
+}
+
+.site-map .site-map-firs-level li a {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 8px 10px;
+    font-family: "Arimo", sans-serif;
+    font-size: 18px;
+    color: #333333;
+}
+
+.site-map .site-map-firs-level li a::after {
+    display: none;
+}
+
+.site-map .site-map-firs-level .firs-level {
+    cursor: pointer;
+    -webkit-transition: ease .3s;
+    -o-transition: ease .3s;
+    transition: ease .3s;
+}
+
+.site-map .site-map-firs-level .firs-level-active {
+    background-color: #fff5d9;
+    margin-top: 7px;
+    cursor: pointer;
+    -webkit-transition: ease .3s;
+    -o-transition: ease .3s;
+    transition: ease .3s;
+}
+
+.site-map .site-map-firs-level .firs-level::after,
+.site-map .site-map-firs-level .firs-level-active::after {
+    display: block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    margin: 0 0 0 8px;
+    background-color: #ffe777;
+    background-image: url(../img/minus.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 8px;
+    border-radius: 50%;
+}
+
+.site-map .site-map-firs-level .firs-level::after {
+    background-image: url(../img/plus.png);
+}
+
+.site-map .site-map-firs-level .firs-level:hover::after,
+.site-map .site-map-firs-level .firs-level-active:hover::after {
+    background-color: #ffd200;
+}
+
+.site-map .site-map-second-level {
+    background-color: #fffbee;
+    border: 3px solid #fff5d9;
+}
+
+.site-map .site-map-second-level li {
+    margin: 15px 0 15px 23px;
+}
+
+.site-map .site-map-second-level li:first-child {
+    margin-top: 0;
+    padding-top: 8px;
+}
+
+.site-map .site-map-second-level li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.site-map .site-map-second-level li a {
+    position: relative;
+    margin: 8px 0;
+    padding: 0 0 0 20px;
+    text-transform: none;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.site-map .site-map-second-level li a::before {
+    position: absolute;
+    left: 0;
+    display: block;
+    content: '';
+    width: 8px;
+    height: 100%;
+    background-color: #d8d8d8;
+}
+
+.site-map .site-map-second-level li a:hover {
+    color: #f9152e;
+}
+
+.site-map .site-map-second-level li a:hover::before {
+    background-color: #f9152e;
+}
+
+.site-map .site-map-second-level li a:visited {
+    color: #cc66ff;
+}
+
+.site-map .site-map-second-level li a:visited::before {
+    background-color: #cc66ff;
+}
+
+/* Пользовательское соглашение, политика конфиденциальности */
+.agreement-privacy-policy a {
+    padding: 0;
+    margin: 35px 0;
+    font-size: 18px;
+    font-family: "Next Art Bold", sans-serif;
+    color: #515151;
+    letter-spacing: 0.05em;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+.agreement-privacy-policy a::after {
+    margin-top: 10px;
+}
+
+/* Адаптивность */
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    .site-map,
+    .agreement-privacy-policy {
+        width: 910px;
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .site-map,
+    .agreement-privacy-policy {
+        width: 680px;
+    }
+    hr {
+        width: 100%;
+    }
+    .site-map ul,
+    .agreement-privacy-policy a {
+        width: 280px;
+        padding-left: 0;
+        margin-left: -10px;
+    }
+    .site-map ul li {
+        padding-top: 25px;
+    }
+    .site-map ul li .deploy {
+        left: -30px;
+        top: 26px;
+        width: 20px;
+        height: 20px;
+    }
+    .site-map ul li .deploy-active::before,
+    .site-map ul li .deploy-active::after,
+    .site-map ul li .deploy::before {
+        top: 7px;
+        left: 3px;
+        width: 10px;
+    }
+    .site-map ul li a {
+        font-size: 20px;
+    }
+    .site-map ul li a::after, .agreement-privacy-policy a::after {
+        width: 48px;
+    }
+    .site-map .site-map-firs-level .firs-level-active {
+        margin-left: -10px;
+        padding-left: 20px;
+    }
+    .site-map .site-map-firs-level li a {
+        padding: 8px 10px;
+        font-size: 15px;
+    }
+    .site-map .site-map-second-level {
+        padding-right: 25px;
+    }
+    .site-map .site-map-firs-level .firs-level-active {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .site-map .site-map-second-level li a {
+        padding: 0 0 0 20px;
+        font-size: 14px;
+    }
+    .agreement-privacy-policy a {
+        font-size: 16px;
+        line-height: 14px;
+        margin: 30px 0 0;
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    .site-map,
+    .agreement-privacy-policy {
+        width: 540px;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .page-title h1 {
+        margin-left: 0;
+    }
+    .site-map .site-map-firs-level li {
+        width: 100%;
+    }
+    .site-map ul,
+    .agreement-privacy-policy a {
+        width: 100%;
+    }
+    .agreement-privacy-policy {
+        padding-left: 12px;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+    .site-map,
+    .agreement-privacy-policy {
+        width: 90%;
+    }
+    .site-map {
+        padding-left: 25px;
+    }
+    .site-map ul li .deploy {
+        left: -25px;
+    }
+    .site-map .site-map-firs-level {
+        margin-left: 0;
+    }
+    .site-map .site-map-firs-level li a {
+        padding-left: 0;
+    }
+    .site-map .site-map-firs-level .firs-level-active {
+        padding-left: 10px;
+    }
+    .site-map .site-map-second-level {
+        margin-right: 0;
+    }
+    .site-map .site-map-second-level li {
+        margin-left: 16px;
+    }
+    .site-map .site-map-second-level li a {
+        padding-left: 15px;
+    }
+}

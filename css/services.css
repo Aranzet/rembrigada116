@@ -1,0 +1,586 @@
+.type-of-repair .first-paragraph {
+    width: 660px;
+    margin: 0 auto;
+}
+
+.type-of-repair .first-paragraph p {
+    line-height: 26px;
+}
+
+.type-of-repair .first-paragraph p:last-child {
+    padding-bottom: 50px;
+}
+
+.type-of-repair .first-paragraph ul {
+    padding: 30px 0 45px;
+}
+
+.type-of-repair .first-paragraph ul li {
+    position: relative;
+    width: 550px;
+    padding: 0 0 15px 56px;
+    list-style: none;
+    line-height: 20px;
+}
+
+.type-of-repair .first-paragraph ul li span {
+    font-weight: bold;
+}
+
+.type-of-repair .first-paragraph ul li::before {
+    position: absolute;
+    left: 0px;
+    display: block;
+    content: '';
+    width: 36px;
+    height: 36px;
+    background-image: url(../img/list-check.png);
+}
+
+.type-of-repair-list {
+    padding-bottom: 0;  
+    margin-bottom: 0;
+}
+
+.type-of-repair-item h4,
+.type-of-repair-item h4:hover {
+    background-color: #f9152e;
+    padding: 0 30px;
+}
+
+.type-of-repair-item .type-of-repair-title-active {
+    border-bottom: none;
+}
+
+.repair .container {
+    padding: 165px 10px 80px 5px;
+    margin-bottom: 50px;
+    box-shadow: none;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.repair-title-label-price h2 {
+    display: flex;
+    align-items: center;
+}
+
+.repair hr, .seo-text hr {
+    width: 68px;
+    height: 3px;
+    margin: 0 0 28px 100px;
+    background-color: #cacaca;
+}
+
+.img-repair-object-type span::after {
+    top: 38px;
+    right: -32px;
+}
+
+.repair-object-type-desc {
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.repair-object-type-more {
+    display: flex;
+    justify-content: space-between;
+}
+
+.repair-object-more {
+    display: flex;
+    flex-direction: column;
+    padding-top: 62px;
+    padding-left: 8px;
+}
+
+.repair-object-more a {
+    margin-bottom: 31px;
+    font-size: 16px;
+    color: #297780;
+}
+
+.repair-object-more a:last-child {
+    padding-bottom: 0;
+}
+
+.repair-object-more a::after {
+    content: '\2192';
+}
+
+.repair-object-more a:hover {
+    color: #20a8ff;
+}
+
+.country-house .container,
+.room .container,
+.turn-key .container {
+    padding-top: 0;
+}
+
+.turn-key .container {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.country-house .repair-object-type-desc {
+    padding-top: 60px;
+}
+
+.room .repair-object-type-desc,
+.turn-key .repair-object-type-desc {
+    padding-top: 40px;
+}
+
+.turn-key .container {
+    padding-bottom: 80px;
+}
+
+.complementary-services {
+    padding: 80px 0 235px;
+    background-color: #f9f9f9;
+}
+
+.complementary-services .container {
+    width: 1160px;
+}
+
+.complementary-services h2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    font-family: "Next Art Bold", sans-serif;
+    font-size: 36px;
+    line-height: 34px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.complementary-services h2::before {
+    position: absolute;
+    left: -98px;
+    display: block;
+    content: '';
+    width: 68px;
+    height: 68px;
+    background-color: #d5d8df;
+}
+
+.complementary-services hr {
+    margin: 25px 0 0 100px;
+    width: 68px;
+    height: 3px;
+    background-color: #cacaca;
+    display: block;
+    border: none;
+}
+
+.complementary-services .complementary-services-list {
+    padding-top: 75px;
+}
+
+.complementary-services .complementary-services-item .services-img {
+    border: 7px solid #e8e8e8;
+}
+
+.complementary-services .complementary-services-item {
+    width: 125px;
+}
+
+.complementary-services .complementary-services-item:hover .services-img {
+    background-color: #e8e8e8;
+}
+
+.complementary-services .complementary-services-item:hover .services-img::after {
+    bottom: -15px;
+    border-top: 12px solid #e8e8e8;
+}
+
+.complementary-services .complementary-services-item p {
+    color: #000;
+}
+
+.complementary-services .complementary-services-item:hover p {
+    margin-top: 15px;
+    color: #fff;
+}
+
+.form-callback {
+    margin-top: -125px;
+}
+
+.contacts-service {
+    padding-top: 430px;
+}
+
+.type-of-repair .container {
+    flex-wrap: wrap;
+}
+
+.type-of-repair-list {
+    width: 100%;
+}
+
+.form-callback .form-callback-container {
+    box-shadow: 0 0 20px 1px rgb(163, 163, 163);
+}
+
+/* Адаптивность */
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    .type-of-repair-item h4 {
+        font-size: 18px;
+    }
+    .type-of-repair .first-paragraph {
+        width: 800px;
+    }
+    .type-of-repair .first-paragraph p:last-child {
+        width: 100%;
+    }
+    .type-of-repair {
+        padding-bottom: 0;
+    }
+    .repair .container {
+        width: 960px;
+    }
+    .repair-object-type-desc {
+        padding-left: 80px;
+    }
+    .repair-object-more {
+        padding-top: 38px;
+    }
+    .repair-object-type-desc p {
+        font-size: 16px;
+    }
+    .repair-object-more a {
+        margin-bottom: 23px;
+    }
+    .complementary-services .container,
+    .complementary-services .complementary-services-list {
+        width: 960px;
+    }
+    .complementary-services .complementary-services-item,
+    .complementary-services .complementary-services-item .services-img {
+        width: 110px;
+    }
+    .complementary-services .complementary-services-item .services-img {
+        padding: 10px;
+    }
+    .complementary-services {
+        padding-bottom: 180px;
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .type-of-repair .first-paragraph {
+        width: 670px;
+    }
+    .type-of-repair .first-paragraph p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .type-of-repair .first-paragraph ul {
+        padding: 25px 0 45px 50px;
+    }
+    .type-of-repair .first-paragraph ul li {
+        width: 500px;
+        font-size: 16px;
+        line-height: 16px;
+        padding-left: 35px;
+    }
+    .type-of-repair .first-paragraph ul li::before {
+        width: 28px;
+        height: 28px;
+        background-size: cover;
+    }
+    .type-of-repair .first-paragraph p:last-child {
+        padding-bottom: 20px;
+    }
+    .type-of-repair-item h4 {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+    .repair .container {
+        width: 670px;
+        padding: 50px 0 90px;
+    }
+    .repair-title-label-price {
+        padding-left: 0;
+    }
+    .repair-title-label-price h2,
+    .complementary-services h2 {
+        font-size: 23px;
+    }
+    .repair-apartments-title-label-price h2::before,
+    .repair-title-label-price h2::before,
+    .complementary-services h2::before {
+        width: 44px;
+        height: 44px;
+        left: -50px;
+    }
+    .repair-title-label-price .label-price {
+        width: 135px;
+        height: 65px;
+    }
+    .repair-title-label-price .label-price {
+        font-size: 14.42px;
+    }
+    .repair-title-label-price .label-price span {
+        font-size: 19.23px;
+        padding: 0 5px;
+    }
+    .repair-title-label-price .label-price sup {
+        font-size: 9px;
+    }
+    .repair-object-type-desc {
+        width: 430px;
+        padding-left: 40px;
+        padding-top: 25px;
+    }
+    .img-repair-object-type span::after {
+        top: 25px;
+        right: -20px;
+    }
+    .repair-object-type-desc p {
+        padding-top: 0;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .repair-object-more a {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+    .repair .container {
+        padding-bottom: 50px;
+        margin-bottom: 0;
+    }
+    .country-house .container,
+    .room .container,
+    .turn-key .container {
+        padding-top: 40px;
+    }
+    .complementary-services .container,
+    .complementary-services .complementary-services-list {
+        width: 670px;
+    }
+    .complementary-services h2,
+    .complementary-services hr {
+        margin-left: 0;
+    }
+    .complementary-services hr {
+        margin-top: 16px;
+    }
+    .complementary-services .complementary-services-list {
+        padding-top: 35px;
+    }
+    .complementary-services .complementary-services-item,
+    .complementary-services .complementary-services-item .services-img {
+        width: 75px;
+    }
+    .complementary-services .complementary-services-item p {
+        color: #818181;
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    .type-of-repair .container,
+    .type-of-repair .first-paragraph,
+    .complementary-services .container,
+    .complementary-services .complementary-services-list {
+        width: 540px;
+    }
+    .type-of-repair .first-paragraph ul {
+        padding-bottom: 15px;
+    }
+    .type-of-repair .first-paragraph ul li {
+        width: 100%;
+    }
+    .type-of-repair-item .img,
+    .type-of-repair-list {
+        border: none;
+    }
+    .type-of-repair-item {
+        border: 6px solid #ededed;
+        padding-bottom: 0;
+        margin-bottom: 15px;
+    }
+    .type-of-repair-item:last-child {
+        border-bottom: 6px solid #ededed;
+    }
+    .repair .container {
+        width: 540px;
+        position: relative;
+    }
+    .repair-title-label-price h2,
+    .complementary-services h2,
+    .repair hr {
+        margin-left: 50px;
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .img-repair-object-type {
+        flex-direction: column;
+    }
+    .img-repair-object-type span {
+        display: block;
+        margin: 0 auto;
+    }
+    .img-repair-object-type span::after {
+        display: block;
+    }
+    .repair-object-type-desc {
+        width: 100%;
+        padding-right: 40px;
+    }
+    .complementary-services .complementary-services-item {
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+    .complementary-services .complementary-services-list {
+        padding-top: 15px;
+    }
+    .complementary-services hr {
+        margin-left: 50px;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+    .type-of-repair .container,
+    .type-of-repair .first-paragraph,
+    .complementary-services .container,
+    .complementary-services .complementary-services-list,
+    .repair .container {
+        width: 90%;
+    }
+    .type-of-repair .container {
+        padding-top: 30px;
+    }
+    .type-of-repair .first-paragraph ul {
+        padding: 30px 0 30px 10px;
+    }
+    .type-of-repair-item h4 {
+        width: 150px;
+        padding: 0 5px;
+    }
+    .repair .container {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    .repair-title-label-price {
+        padding: 20px 0 15px;
+        background-color: rgb(255, 255, 255, .5)
+    }
+    .repair-title-label-price h2 {
+        width: 150px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .repair-title-label-price .label-price {
+        font-size: 11.63px;
+        background-color: #f9152e;
+    }
+    .repair-title-label-price .label-price span {
+        font-size: 15.51px;
+        padding: 0 3px;
+    }
+    .repair-title-label-price .label-price {
+        height: 33px;
+    }
+    .repair hr {
+        margin-top: -10px;
+        margin-left: 45px;
+    }
+    .img-repair-object-type {
+        position: absolute;
+        top: 15px;
+        width: 100%;
+        z-index: -1;
+    }
+    .img-repair-object-type span img {
+        height: 100%;
+    }
+    .img-repair-object-type span {
+        width: 100%;
+        height: 260px;
+    }
+    .repair .container {
+        height: 470px;
+    }
+    .repair-object-more {
+        display: none;
+    }
+    .repair-object-type-desc {
+        padding: 30px 0 0 20px;
+    }
+    .repair-object-type {
+        padding-top: 0;
+    }
+    .img-repair-object-type span::after {
+        top: 45px;
+        right: -15px;
+        border: 12px solid #ececec;
+    }
+    .repair-apartments-title-label-price h2::before, .repair-title-label-price h2::before,
+    .complementary-services h2::before {
+        width: 36px;
+        height: 36px;
+        left: -45px;
+    }
+    .complementary-services .complementary-services-item {
+        margin: 0 25px;
+    }
+    .complementary-services .complementary-services-list {
+        padding: 25px 0 0 0;
+        justify-content: space-between;
+    }
+    .complementary-services {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    .form-callback {
+        margin: 20px 0;
+    }
+    .contacts-service {
+        padding-top: 0;
+    }
+    .type-of-repair-list {
+        margin-left: 0;
+    }
+    .type-of-repair-item:hover {
+        border: 6px solid #c6c6c6;
+    }
+    .type-of-repair-item h4 {
+        width: fit-content;
+        margin-left: 5px;
+        font-size: 18px;
+        padding-right: 0;
+    }
+    .repair-object-type a {
+        margin-bottom: 0;
+    }
+    .complementary-services .complementary-services-item,
+    .complementary-services .complementary-services-item .services-img {
+        width: 112px;
+    }
+    .complementary-services .complementary-services-item .services-img {
+        height: 112px;
+    }
+    .complementary-services .complementary-services-item {
+        margin: 0 15px;
+    }
+    .complementary-services h2 {
+        margin-left: 0;
+        font-size: 18px;
+    }
+    .complementary-services h2::before {
+        display: none;
+    }
+    .complementary-services hr {
+        margin: 16px auto 0 auto;
+    }
+}

@@ -1,0 +1,204 @@
+.contacts-footer-form {
+    position: relative;
+    background-color: #4a4c54;
+    background-image: none;
+}
+
+.contacts-footer-form .contacts {
+    background-color: transparent;
+    margin-bottom: 35px;
+    padding: 0 0 35px 0;
+    min-height: auto;
+    border-bottom: 1px solid #5e6066;
+}
+
+.contacts-footer-form-phone-inn {
+    display: flex;
+}
+
+.contacts-footer-form .inn {
+    padding: 20px 0 20px 85px;
+}
+
+.contacts-footer-form .inn p:last-child {
+    margin-top: 0;
+    padding-left: 0;
+    background-image: none;
+    color: #fff;
+}
+
+.contacts-footer-form h3 {
+    padding-bottom: 25px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "Next Art Bold", sans-serif;
+    color: #fff;
+    letter-spacing: 0.2em;
+}
+
+.contacts-footer-form .footer-form {
+    width: 540px;
+}
+
+.contacts-footer-form .footer-form-input {
+    width: 260px;
+}
+
+.contacts-footer-form .footer-form textarea {
+    width: 260px;
+    margin-left: 13px;
+}
+
+.more-btn {
+    height: 56px;
+}
+
+.contacts-footer-form .footer-form .more-btn p {
+    width: 175px;
+    padding-left: 32px;
+    line-height: 48px;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+}
+
+.contacts-footer-form .footer-form .more-btn span {
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+}
+
+.contacts-footer-form .footer-form .agreements-label {
+    width: 255px;
+    margin-left: 45px;
+    color: #7c8596;
+}
+
+.contacts-footer-form .footer-form .agreements-label a {
+    color: #7c8596;
+}
+
+.contacts-footer-form .map {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+}
+
+.contacts-footer-form .map iframe {
+    width: 100%;
+}
+
+/* Адаптивность */
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    .contacts-container {
+        width: 50%;
+    }
+    .contacts-footer-form .footer-form-input,
+    .contacts-footer-form .footer-form textarea {
+        width: 100%;
+    }
+    .contacts-footer-form .footer-form {
+        width: calc(100% - 70px);
+        margin-right: 70px;
+    }
+    .contacts-footer-form .footer-form textarea,
+    .contacts-footer-form .footer-form .agreements-label {
+        margin-left: 0;
+    }
+    .contacts-footer-form .footer-form .more-btn span {
+        border-left: 3px solid #5d6270;
+        background-color: #d52437;
+    }
+    .contacts-footer-form .footer-form .more-btn span::before, .contacts-footer-form .footer-form .more-btn span::after {
+        background-color: #fff;
+    }
+    .contacts-footer-form-phone-inn {
+        flex-direction: column;
+    }
+    .contacts-footer-form {
+        padding: 30px 0 25px;
+    }
+    .contacts-footer-form .contacts .contacts-footer-form-phone {
+        order: 1;
+    }
+    .contacts-footer-form .inn {
+        padding-left: 0;
+    }
+    .contacts-footer-form .contacts .contacts-footer-form-phone {
+        padding: 0 0 25px;
+    }
+    .contacts-footer-form .contacts a {
+        margin-bottom: 25px;
+    }
+    .contacts-footer-form .contacts p:last-child {
+        margin-top: 15px;
+    }
+    .contacts-footer-form .contacts {
+        padding-bottom: 18px;
+        margin-bottom: 25px;
+    }
+    .contacts-footer-form h3 {
+        padding-bottom: 15px;
+    }
+    .contacts-footer-form .inn p:first-child {
+        padding-bottom: 0;
+    }
+    .contacts-footer-form .inn p:last-child {
+        margin-top: 0;
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    .contacts-footer-form .container {
+        width: 90% !important;
+        flex-direction: column;
+    }
+    .contacts-footer-form .map {
+        position: relative;
+        left: 6%;
+        width: 114%;
+        height: 785px;
+    }
+    .contacts-footer-form .map iframe {
+        height: 100%;
+    }
+    .contacts-container,
+    .contacts-footer-form .footer-form .agreements-label {
+        width: 100%;
+    }
+    .contacts-footer-form .footer-form {
+        width: 100%;
+        margin: 0;
+    }
+    .contacts-form {
+        position: absolute;
+        width: 90%;
+        top: 540px;
+        z-index: 100;
+        padding: 25px 13px 14px;
+        background-color: #fff;
+        box-shadow: 0 0 20px #9e9e9e;
+    }
+    .contacts-footer-form h3 {
+        color: #000;
+    }
+    .contacts-footer-form .footer-form {
+        padding: 29px 10px 25px;
+        background-color: #5d6270;
+    }
+    .contacts-footer-form {
+        padding-bottom: 0;
+    }
+    .contacts-footer-form .contacts {
+        margin-bottom: 0;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+    .contacts-footer-form h3 {
+        font-size: 24px;
+    }
+}

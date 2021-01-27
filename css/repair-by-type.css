@@ -1,0 +1,1648 @@
+.type-of-repair .container {
+    width: 1155px;
+    padding-top: 43px;
+}
+
+.type-of-repair-list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ededed;
+    margin-bottom: 75px;
+}
+
+.type-of-repair-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.type-of-repair-item .img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 360px;
+    padding: 80px;
+    border: 20px solid #ededed;
+}
+
+.type-of-repair-item .img img {
+    width: 100%;
+}
+
+.type-of-repair .type-of-repair-list .type-of-repair-item .label-price {
+    position: absolute;
+    top: 35px;
+    right: -9px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 175px;
+    height: 35px;
+    padding-bottom: 4px;
+    background-color: #ed3947;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: -0.01em;
+}
+
+.type-of-repair-item {
+    position: relative;
+}
+
+.type-of-repair-item .label-price span {
+    position: relative;
+    font-size: 22px;
+    padding: 0 5px;
+}
+
+.type-of-repair-item .label-price span::before {
+    position: absolute;
+    top: -11px;
+    right: -57px;
+    display: block;
+    content: '';
+    width: fit-content;
+    border-bottom: 3px solid #b62c37;
+    border-left: 4px solid #b62c37;
+    border-top: 3px solid transparent;
+    border-right: 4px solid transparent;
+}
+
+.type-of-repair-item .label-price span::after {
+    content: '₽';
+}
+
+.type-of-repair-item .label-price sup {
+    font-size: 10px;
+}
+
+.type-of-repair-item h4 {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 42px;
+    margin-top: 25px;
+    padding: 0 8px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 0.045em;
+    background-color: #363941;
+    cursor: pointer;
+}
+
+.type-of-repair-item h4:hover {
+    background-color: #000000;
+}
+
+.type-of-repair-item h4[data-title]:hover {
+    width: 275px;
+}
+
+.type-of-repair-item .type-of-repair-title-active {
+    border-bottom: 3px solid #ff394f;
+}
+
+.type-of-repair .container p:nth-child(2),
+.type-of-repair .container p:last-child {
+    width: 660px;
+    margin: 0 auto;
+    line-height: 26px;
+}
+
+.type-of-repair .container p:nth-child(2) {
+    padding-bottom: 25px;
+}
+
+.type-of-repair .container p:last-child {
+    padding-bottom: 105px;
+}
+
+.type-of-repair-item .overhaul {
+    position: absolute;
+    top: 460px;
+    left: 0;
+    display: none;
+    width: 1155px;
+    padding: 60px 35px 70px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 5px #ececec;
+    z-index: 10;
+}
+
+.type-of-repair-item .overhaul-active {
+    display: flex;
+}
+
+.type-of-repair-item .overhaul::before {
+    position: absolute;
+    top: -16px;
+    left: 125px;
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+
+.type-of-repair-item-kosmetic .overhaul {
+    left: unset;
+}
+
+.type-of-repair-item-euro .overhaul {
+    left: -795px;
+}
+
+.type-of-repair-item-kosmetic .overhaul::before {
+    left: 525px;
+}
+
+.type-of-repair-item-euro .overhaul::before {
+    left: 950px;
+}
+
+.type-of-repair-item .overhaul .average-price {
+    display: flex;
+}
+
+.type-of-repair-item .overhaul .average-price p {
+    padding-right: 20px;
+    font-size: 14px;
+    line-height: 12px;
+    color: #b6b6b6;
+}
+
+.type-of-repair-item .overhaul .average-price h4,
+.type-of-repair-item .overhaul .due-date h4 {
+    margin-top: 0;
+    padding: 0;
+    background-color: transparent;
+    color: #363941;
+    text-transform: none;
+    font-size: 18px;
+    letter-spacing: -0.01em;
+}
+
+.type-of-repair-item .overhaul .average-price h4 span,
+.type-of-repair-item .overhaul .due-date h4 span {
+    padding-right: 5px;
+    font-size: 22px;
+}
+
+.type-of-repair-item .overhaul .average-price h4 span::after {
+    padding-left: 5px;
+    content: '₽';
+}
+
+.type-of-repair-item .overhaul .average-price h4 sup {
+    font-size: 10px;
+}
+
+.type-of-repair-item .overhaul .due-date {
+    display: flex;
+    padding-top: 40px;
+}
+
+.type-of-repair-item .overhaul .due-date h4 {
+    display: flex;
+    justify-content: center;
+    width: 126px;
+    background-color: #f2f2f2;
+}
+
+.type-of-repair-item .overhaul .due-date p:first-child {
+    width: 120px;
+    padding-right: 40px;
+    box-sizing: content-box;
+    font-size: 14px;
+    line-height: 12px;
+    color: #b6b6b6;
+}
+
+.type-of-repair-item .overhaul .due-date-list p {
+    width: max-content;
+    padding: 0 0 0 10px;
+}
+
+.type-of-repair-item .overhaul .due-date-fifty,
+.type-of-repair-item .overhaul .due-date-ninety,
+.type-of-repair-item .overhaul .due-date-one-hundred-twenty {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding-bottom: 25px;
+}
+
+.type-of-repair-item .overhaul .due-date-one-hundred-twenty {
+    padding-bottom: 0;
+}
+
+.type-of-repair-item .overhaul .what-included {
+    padding-left: 60px;
+}
+
+.type-of-repair-item .overhaul .what-included p:first-child {
+    padding-bottom: 60px;
+    font-size: 14px;
+    color: #b6b6b6;
+}
+
+.type-of-repair-item .overhaul .what-included p:nth-child(2) {
+    color: #696969;
+}
+
+.type-of-repair-item .overhaul .what-included ul {
+    list-style: none;
+    padding-left: 30px;
+}
+
+.type-of-repair-item .overhaul .what-included ul li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.type-of-repair-item .overhaul .what-included ul li::before {
+    position: absolute;
+    left: -25px;
+    display: block;
+    content: '';
+    width: 14px;
+    height: 12px;
+    background-image: url(../img/tick.png);
+}
+
+.type-of-repair-item .overhaul .what-included ul li:last-child {
+    margin-bottom: 0;
+}
+
+.repair-apartments .container,
+.repair .container {
+    width: 1155px;
+    margin: 0 auto;
+    padding: 80px 100px 60px;
+    box-shadow: 0 0 10px 5px #ececec;
+}
+
+.repair-apartments-title-label-price {
+    align-items: center;
+}
+
+.repair-apartments-title-label-price,
+.repair-title-label-price {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+
+.repair-apartments-title-label-price h2 {
+    height: 75px;
+}
+
+.repair-apartments-title-label-price h2,
+.repair-title-label-price h2,
+.seo-text h2 {
+    position: relative;
+    font-family: "Next Art Bold", sans-serif;
+    font-size: 36px;
+    line-height: 34px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.repair-apartments-title-label-price h2::before,
+.repair-title-label-price h2::before,
+.seo-text h2::before {
+    position: absolute;
+    left: -98px;
+    display: block;
+    content: '';
+    width: 68px;
+    height: 68px;
+    background-color: #d5d8df;
+}
+
+.repair-apartments-title-label-price .label-price,
+.repair-title-label-price .label-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+    height: 100px;
+    background-color: #ed3947;
+    color: #fff;
+    font-size: 22.53px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+.repair-apartments-title-label-price .label-price span,
+.repair-title-label-price .label-price span {
+    padding: 0 10px;
+    font-size: 30px;
+    font-family: "Next Art Bold", sans-serif;
+}
+
+.repair-apartments-title-label-price .label-price sup,
+.repair-title-label-price .label-price sup {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.repair-apartments hr,
+.repair hr,
+.seo-text hr {
+    display: block;
+    width: 111px;
+    height: 1px;
+    margin: 22px 0 40px 100px;
+    border: none;
+    background-color: #000000;
+}
+
+.img-repair-object-type {
+    display: flex;
+    padding-left: 100px;
+}
+
+.img-repair-object-type span {
+    position: relative;
+    display: block;
+    width: 363px;
+    height: 363px;
+}
+
+.img-repair-object-type span::after {
+    position: absolute;
+    top: 180px;
+    right: -60px;
+    display: block;
+    content: '';
+    width: 360px;
+    height: 360px;
+    border: 16px solid #ececec;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+.img-repair-object-type span img {
+    object-fit: cover;
+}
+
+.repair-object-type-desc {
+    padding-left: 100px;
+}
+
+.repair-object-type-desc p {
+    line-height: 26px;
+}
+
+.repair-object-type {
+    display: flex;
+    flex-direction: column;
+    padding-top: 55px;
+}
+
+.repair-object-type a {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 42px;
+    padding-right: 15px;
+    margin-bottom: 5px;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 48px;
+}
+
+.repair-object-type a:hover {
+    background-color: #ffefb0;
+}
+
+.repair-object-type a::before {
+    display: block;
+    content: '';
+    width: 12px;
+    height: 12px;
+    margin: auto 16px auto 17px;
+    background-color: #ed3947;
+}
+
+.repair-object-more {
+    display: none;
+}
+
+.repair-apartments .container form {
+    margin-top: 100px;
+}
+
+.repair-apartments .container form label {
+    padding: 5px 0 0 25px;
+}
+
+.seo-text .container {
+    position: relative;
+    width: 1155px;
+    margin: 0 auto;
+    padding: 120px 0 100px 200px;
+}
+
+.seo-text h2 {
+    padding-bottom: 35px;
+}
+
+.seo-text hr {
+    margin: 0 0 25px 0;
+}
+
+.seo-text h6 {
+    position: absolute;
+    top: 250px;
+    right: 0;
+    width: 200px;
+    height: 220px;
+    padding: 45px 30px 30px;
+    background-color: #f9f9f9;
+    border: 2px solid #e5e5e5;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.seo-text p {
+    width: 660px;
+    line-height: 26px;
+    padding-bottom: 30px;
+}
+
+.main-types-of-repair {
+    padding: 85px 0 65px;
+    background-color: #363941;
+}
+
+.main-types-of-repair h3 {
+    font-size: 28px;
+    color: #fff;
+}
+
+.main-types-of-repair .section-hr {
+    background-color: #fff;
+}
+
+.main-types-of-repair-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+.main-types-of-repair-item {
+    width: 470px;
+    color: #fff;
+}
+
+.main-types-of-repair-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.main-types-of-repair-item h4 {
+    position: relative;
+    padding: 35px 0 55px 55px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: "Next Art Bold", sans-serif;
+}
+
+.main-types-of-repair-item h4::before {
+    position: absolute;
+    content: '';
+    top: 45px;
+    left: -2px;
+    width: 40px;
+    height: 2px;
+    background-color: #545965;
+}
+
+.main-types-of-repair-item p {
+    padding: 0 0 25px 90px;
+}
+
+.main-types-of-repair-item ul {
+    padding-left: 90px;
+    list-style: none;
+}
+
+.main-types-of-repair-item ul li {
+    position: relative;
+    padding: 0 0 15px 56px;
+    list-style: none;
+    line-height: 20px;
+}
+
+.main-types-of-repair-item ul li:last-child {
+    padding-bottom: 0;
+}
+
+.main-types-of-repair-item ul li::before {
+    position: absolute;
+    left: 0px;
+    display: block;
+    content: '';
+    width: 36px;
+    height: 36px;
+    background-image: url(../img/list-check.png);
+}
+
+.main-types-of-repair-item h5 {
+    position: relative;
+    width: 400px;
+    margin: 40px 0 0 20px;
+    padding: 30px 50px 50px 65px;
+    background-color: #545965;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.main-types-of-repair-item h5::before,
+.question-cube::after {
+    position: absolute;
+    top: -10px;
+    content: '';
+    display: block;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #545965;
+    z-index: 0;
+}
+
+.result {
+    padding: 90px 0 575px;
+    background-image: url(../img/result-bg.jpg);
+    background-size: cover;
+}
+
+.result .section-title {
+    font-size: 28px;
+}
+
+.result hr {
+    background-color: #000;
+}
+
+.result-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55px;
+}
+
+.result-item {
+    width: 200px;
+}
+
+.question-cube {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 193px;
+    height: 193px;
+    border: 12px solid #cccccc;
+}
+
+.question-cube::after {
+    top: 175px;
+    border-top: 20px solid #cccccc;
+    border-bottom: none;
+}
+
+.question-cube img {
+    z-index: 10;
+}
+
+.question-cube::before {
+    position: absolute;
+    right: 5px;
+    bottom: 6px;
+    display: block;
+    content: '';
+    width: 114px;
+    height: 114px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.result .container {
+    width: 1155px;
+    margin: 0 auto;
+}
+
+.result-item h4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 210px;
+    padding-left: 24px;
+    margin: 40px 0 30px;
+    font-size: 22px;
+    line-height: 24px;
+    font-family: "Next Art Bold", sans-serif;
+    z-index: 10;
+}
+
+.result-item h4::before {
+    position: absolute;
+    left: 0;
+    content: '';
+    display: block;
+    width: 154px;
+    height: 66px;
+    border-radius: 33px;
+    background-color: #ed3947;
+    z-index: -1;
+}
+
+.result-item p {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 22px;
+    line-height: 22px;
+}
+
+.result-item p:last-child {
+    padding-bottom: 0;
+}
+
+.result-item p span {
+    font-weight: bold;
+}
+
+.calculate-cost .container {
+    width: 1155px;
+    margin: 0 auto;
+    margin-top: -520px;
+    margin-bottom: 50px;
+    padding: 50px 135px 70px 135px;
+    box-shadow: 0 0 10px 5px #bdbdbd;
+    background-color: #fff;
+}
+
+.calculate-cost .container p:first-child {
+    text-align: center;
+    line-height: 22px;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    font-family: "Next Art Bold", sans-serif;
+}
+
+.calculate-cost-our-work a:hover {
+    width: 230px;
+    background-color: #f9152e;
+}
+
+.calculate-cost-container {
+    padding-top: 90px;
+}
+
+.calculate-cost-order {
+    padding-left: 415px;
+}
+
+.calculate-cost-order h3,
+.calculate-cost-order p {
+    padding-bottom: 40px;
+}
+
+.calculate-cost-order p {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.calculate-cost-order input:last-child {
+    margin-bottom: 18px;
+}
+
+.calculate-cost .calculate-cost-order .more-btn {
+    height: 56px;
+}
+
+.calculate-cost .calculate-cost-order .more-btn p {
+    padding-left: 15px;
+    line-height: 46px;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+}
+
+.calculate-cost .calculate-cost-order .more-btn span {
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+}
+
+.contacts-service {
+    position: relative;
+    margin-top: -380px;
+    padding: 380px 0 45px;
+    z-index: -1;
+}
+
+/* Адаптивность */
+
+/* 1200px - 1540px */
+@media screen and (max-width: 1540px) {
+    .main-types-of-repair-item {
+        width: 370px;
+        color: #fff;
+    }
+    .main-types-of-repair-item h5 {
+        width: 370px;
+    }
+}
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    .type-of-repair .container,
+    .type-of-repair-item .overhaul,
+    .repair-apartments .container,
+    .seo-text .container,
+    .main-types-of-repair .container,
+    .result .container,
+    .calculate-cost .container {
+        width: 960px;
+    }
+    .type-of-repair-item .img {
+        width: 300px;
+        height: 300px;
+    }
+    .type-of-repair-item h4 {
+        font-size: 20px;
+    }
+    .type-of-repair-item .overhaul {
+        top: 400px;
+    }
+    .type-of-repair-item .overhaul .due-date-fifty,
+    .type-of-repair-item .overhaul .due-date-ninety,
+    .type-of-repair-item .overhaul .due-date-one-hundred-twenty {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .type-of-repair-item .overhaul .due-date-one-hundred-twenty {
+        padding-bottom: 0;
+    }
+    .type-of-repair-item .overhaul .due-date-list p {
+        padding-left: 0;
+    }
+    .type-of-repair-item .overhaul .what-included p {
+        width: max-content;
+    }
+    .repair-apartments-title-label-price,
+    .img-repair-object-type {
+        padding-left: 0;
+    }
+    .repair-apartments hr {
+        margin-left: 0;
+    }
+    .img-repair-object-type span::after {
+        top: 35px;
+        right: -35px;
+    }
+    .repair-object-type-desc {
+        padding-left: 80px;
+    }
+    .repair-object-type-desc p {
+        font-size: 14px;
+        line-height: 18px;
+        padding-top: 20px;
+    }
+    .repair-object-type {
+        padding-top: 30px;
+    }
+    .repair-object-type a {
+        height: 36px;
+        font-size: 18px;
+    }
+    .seo-text .container {
+        padding-left: 100px;
+        padding-right: 50px;
+    }
+    .seo-text hr {
+        display: none;
+    }
+    .seo-text h6 {
+        position: relative;
+        top: unset;
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 35px;
+    }
+    .seo-text p {
+        width: 100%;
+    }
+    .main-types-of-repair-item {
+        width: 300px;
+    }
+    .main-types-of-repair-item img {
+        height: 360px;
+    }
+    .main-types-of-repair-item h4 {
+        padding-left: 35px;
+        padding-bottom: 25px;
+        font-size: 18px;
+    }
+    .main-types-of-repair-item h4::before {
+        width: 30px;
+    }
+    .main-types-of-repair-item p {
+        padding: 0 0 25px 0;
+    }
+    .main-types-of-repair-item ul {
+        padding-left: 0;
+    }
+    .main-types-of-repair-item ul li {
+        padding-left: 50px;
+    }
+    .main-types-of-repair-item h5 {
+        width: 300px;
+        margin-left: 0;
+        padding: 25px 15px 40px 20px;
+        font-size: 18px;
+    }
+    .question-cube {
+        width: 170px;
+        height: 170px;
+    }
+    .result-item {
+        width: 180px;
+    }
+    .question-cube::before {
+        width: 100px;
+        height: 100px;
+    }
+    .question-cube::after {
+        top: 155px;
+    }
+    .result-item h4 {
+        width: auto;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .result-item h4::before {
+        width: 124px;
+        height: 50px;
+    }
+    .result-item p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .calculate-cost .container {
+        padding: 50px 85px 70px 85px;
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .type-of-repair .container,
+    .type-of-repair-item .overhaul,
+    .repair-apartments .container,
+    .seo-text .container,
+    .main-types-of-repair .container,
+    .result .container,
+    .calculate-cost .container {
+        width: 750px;
+    }
+    .type-of-repair .container {
+        padding: 20px 0 0;
+    }
+    .type-of-repair-list {
+        padding-bottom: 17px;
+        margin-bottom: 35px;
+    }
+    .type-of-repair-item .img {
+        width: 240px;
+        height: 240px;
+        padding: 50px;
+        border: 15px solid #ededed;
+    }
+    .type-of-repair .type-of-repair-list .type-of-repair-item .label-price {
+        top: 28px;
+    }
+    .type-of-repair .type-of-repair-list .type-of-repair-item .label-price {
+        width: 135px;
+        height: 27px;
+        font-size: 14px;
+    }
+    .type-of-repair-item .label-price span {
+        font-size: 18.73px;
+    }
+    .type-of-repair-item .label-price span::before {
+        top: -11px;
+        right: -41px;
+    }
+    .type-of-repair-item h4 {
+        height: 20px;
+        margin-top: 10px;
+        padding: 0 5px;
+        font-size: 14px;
+    }
+    .type-of-repair .container p:nth-child(2), .type-of-repair .container p:last-child {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .type-of-repair .container p:nth-child(2) {
+        padding-bottom: 20px;
+    }
+    .type-of-repair .container p:last-child {
+        padding-bottom: 40px;
+    }
+    .type-of-repair-item .overhaul {
+        top: 290px;
+    }
+    .type-of-repair-item .overhaul .average-price {
+        align-items: center;
+    }
+    .type-of-repair-item .overhaul .average-price p,
+    .type-of-repair-item .overhaul .due-date p:first-child {
+        width: 115px;
+        font-size: 13px;
+        line-height: 11px;
+    }
+    .type-of-repair-item .overhaul .average-price h4,
+    .type-of-repair-item .overhaul .due-date h4 {
+        font-size: 14px;
+    }
+    .type-of-repair-item .overhaul .average-price h4 span,
+    .type-of-repair-item .overhaul .due-date h4 span {
+        font-size: 18px;
+    }
+    .type-of-repair-item .overhaul .due-date p:first-child {
+        width: 85px;
+        padding-right: 20px;
+        word-wrap: break-word;
+    }
+    .type-of-repair-item .overhaul .due-date p:first-child br {
+        display: none;
+    }
+    .type-of-repair-item .overhaul .due-date h4 {
+        height: 28px;
+    }
+    .type-of-repair .container .due-date p:last-child {
+        padding-bottom: 20px;
+        font-weight: bold;
+        font-size: 12px;
+        color: #8f8f8f;
+    }
+    .type-of-repair .container .due-date p:last-child sup {
+        font-size: 8px;
+    }
+    .type-of-repair .container .due-date-one-hundred-twenty p:last-child {
+        padding-bottom: 0;
+    }
+    .type-of-repair-item .overhaul .what-included {
+        padding-left: 45px;
+    }
+    .type-of-repair-item .overhaul .what-included p:first-child {
+        padding-bottom: 50px;
+    }
+    .type-of-repair-item .overhaul .what-included ul li {
+        font-size: 16px;
+    }
+    .close-overhaul {
+        top: 10px;
+        right: 10px;
+        width: 50px;
+        height: 50px;
+    }
+    .close-overhaul::before,
+    .close-overhaul::after {
+        top: 22px;
+        left: 10px;
+    }
+    .type-of-repair-item .overhaul::before {
+        top: -5px;
+        left: 100px;
+    }
+    .repair-apartments .container {
+        padding: 25px 40px 60px 50px;
+    }
+    .repair-apartments-title-label-price h2,
+    .seo-text h2 {
+        font-size: 23px;
+    }
+    .repair-apartments-title-label-price h2 br,
+    .seo-text h2 br {
+        display: none;
+    }
+    .repair-apartments-title-label-price .label-price {
+        width: 135px;
+        height: 65px;
+        font-size: 14.42px;
+    }
+    .repair-apartments-title-label-price .label-price span {
+        font-size: 19.23px;
+        padding: 0 5px;
+    }
+    .repair-apartments-title-label-price .label-price sup {
+        font-size: 9px;
+    }
+    .repair-apartments hr {
+        width: 44px;
+        height: 2px;
+        margin: -5px 0 20px 0;
+        background-color: #cacaca;
+    }
+    .img-repair-object-type span,
+    .img-repair-object-type span::after {
+        width: 232px;
+        height: 232px;
+    }
+    .img-repair-object-type span::after {
+        border: 11px solid #ececec;
+    }
+    .img-repair-object-type span img {
+        width: 100%;
+    }
+    .repair-object-type-more {
+        display: flex;
+        justify-content: space-between;
+    }
+    .repair-object-type-desc {
+        width: 440px;
+        padding-left: 50px;
+    }
+    .repair-object-type-desc p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .repair-object-type a {
+        height: 22px;
+        font-size: 14px;
+        margin-bottom: 10px;
+        padding-right: 5px;
+    }
+    .repair-object-type a::before {
+        width: 6px;
+        height: 6px;
+        margin: auto 8px auto 4px;
+    }
+    .repair-object-more {
+        display: flex;
+        flex-direction: column;
+        padding-top: 32px;
+    }
+    .repair-object-more a {
+        color: #297780;
+        font-size: 12px;
+        margin-bottom: 18px;
+        letter-spacing: -0.005em;
+    }
+    .repair-object-more a:last-child {
+        margin-bottom: 0;
+    }
+    .repair-object-more a::after {
+        content: '\2192';
+    }
+    .repair-object-more a:hover {
+        color: #20a8ff;
+    }
+    .repair-apartments .container form {
+        margin-top: 45px;
+    }
+    .seo-text .container {
+        padding: 60px 0 55px 55px;
+    }
+    .repair-apartments-title-label-price h2::before,
+    .seo-text h2::before {
+        left: -50px;
+        width: 44px;
+        height: 44px;
+    }
+    .seo-text h2 {
+        padding-bottom: 55px;
+    }
+    .seo-text h6 {
+        padding: 25px 55px 25px 55px;
+    }
+    .seo-text p {
+        font-size: 16px;
+        line-height: 18px;
+        padding-bottom: 15px;
+    }
+    .main-types-of-repair {
+        padding: 40px 0 30px;
+    }
+    .main-types-of-repair h3 {
+        padding-bottom: 10px;
+    }
+    .main-types-of-repair-list {
+        padding-top: 25px;
+    }
+    .main-types-of-repair-item {
+        width: 242px;
+    }
+    .main-types-of-repair-item img {
+        height: 260px;
+    }
+    .main-types-of-repair-item h4 {
+        padding: 15px 0 15px 25px;
+        font-size: 15px;
+        line-height: 14px;
+    }
+    .main-types-of-repair-item h4::before {
+        width: 20px;
+        top: 21px;
+        left: -5px;
+    }
+    .main-types-of-repair-item p {
+        font-size: 15px;
+        line-height: 14px;
+        padding-bottom: 18px;
+    }
+    .main-types-of-repair-item p br {
+        display: none;
+    }
+    .main-types-of-repair-item ul li {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .main-types-of-repair-item h5 {
+        width: 240px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .result {
+        padding: 35px 0 625px;
+    }
+    .result-list {
+        padding-top: 20px;
+    }
+    .result-item {
+        width: 150px;
+    }
+    .question-cube {
+        width: 140px;
+        height: 140px;
+        border: 8px solid #cccccc;
+    }
+    .question-cube::before {
+        width: 84px;
+        height: 84px;
+    }
+    .question-cube::after {
+        top: 125px;
+    }
+    .question-cube img {
+        width: 52px;
+    }
+    .result-item h4 {
+        margin: 35px 0 30px;
+        padding-left: 10px;
+        font-size: 15px;
+        line-height: 14.71px;
+    }
+    .result-item h4::before {
+        width: 110px;
+    }
+    .result-item p {
+        width: 130px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .calculate-cost .container {
+        margin-top: -605px;
+        padding: 35px 80px 75px 80px;
+    }
+    .calculate-cost .container p:first-child {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .calculate-cost .container p:first-child br {
+        display: none;
+    }
+    .calculate-cost-container {
+        padding-top: 55px;
+    }
+    .calculate-cost-our-work {
+        margin-top: 40px;
+        width: 280px;
+        height: 280px;
+        border: 12px solid #ededed;
+    }
+    .calculate-cost-our-work img {
+        width: 280px;
+        height: 280px;
+        left: -40px;
+        top: -40px;
+    }
+    .pop-up-callback-send .pop-up-callback-send-our-work a, .calculate-cost-our-work a {
+        width: 165px;
+        height: 34px;
+    }
+    .calculate-cost-our-work a p {
+        left: -20px;
+    }
+    .calculate-cost-order {
+        padding-left: 325px;
+    }
+    .calculate-cost-order h3 {
+        font-size: 20px;
+        line-height: 18px;
+        padding-bottom: 18px;
+    }
+    .calculate-cost-order p {
+        font-size: 14px;
+        line-height: 14px;
+        padding-bottom: 25px;
+    }
+    .calculate-cost-order p br {
+        display: none;
+    }
+    .calculate-cost-order input {
+        width: 100%;
+    }
+    .calculate-cost-order .calculate-cost-agreements-label {
+        width: calc(100% - 30px);
+    }
+    .calculate-cost .calculate-cost-order .more-btn p {
+        line-height: 46px;
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    .type-of-repair .container,
+    .repair-apartments .container,
+    .seo-text .container,
+    .main-types-of-repair .container,
+    .result .container,
+    .calculate-cost .container {
+        width: 90%;
+    }
+    .type-of-repair-item .overhaul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .type-of-repair-item-kapital .overhaul {
+        top: 90px;
+    }
+    .type-of-repair-item-kapital .overhaul::before {
+        left: 200px;
+    }
+    .type-of-repair-item .overhaul .what-included {
+        padding-top: 25px;
+        padding-left: 0;
+    }
+    .type-of-repair-item .overhaul .what-included p:first-child {
+        padding-bottom: 30px;
+    }
+    .average-price-due-date {
+        display: flex;
+        flex-direction: column;
+    }
+    .type-of-repair-item .overhaul .due-date h4 {
+        margin-left: 0;
+    }
+    .type-of-repair .container .due-date p:last-child {
+        width: fit-content;
+        padding-bottom: 0;
+    }
+    .due-date-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .type-of-repair-item .overhaul .due-date-fifty, .type-of-repair-item .overhaul .due-date-ninety, .type-of-repair-item .overhaul .due-date-one-hundred-twenty {
+        margin: 0 10px;
+    }
+    .type-of-repair-list {
+        flex-direction: column;
+        border-bottom: 1px solid #dddddd;
+    }
+    .type-of-repair-item {
+        flex-direction: row;
+        padding: 15px 0;
+        border-bottom: 1px solid #dddddd;
+    }
+    .type-of-repair-item:first-child {
+        padding-top: 0;
+    }
+    .type-of-repair-item:last-child {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+    .type-of-repair-item .img {
+        width: 105px;
+        height: 105px;
+        padding: 12px;
+        border: 6px solid #ededed;
+    }
+    .type-of-repair-item h4 {
+        margin-top: 0;
+        margin-left: 10px;
+        font-size: 18px;
+        height: auto;
+    }
+    .type-of-repair .type-of-repair-list .type-of-repair-item .label-price {
+        top: 0px;
+    }
+    .type-of-repair .container p:nth-child(2),
+    .type-of-repair .container p:last-child {
+        width: 100%;
+    }
+    .repair-apartments-title-label-price h2, .seo-text h2 {
+        font-size: 24px;
+        line-height: 22px;
+    }
+    .repair-apartments-title-label-price {
+        flex-direction: column;
+    }
+    .repair-apartments-title-label-price h2::before {
+        display: none;
+    }
+    .repair-apartments hr, 
+    .img-repair-object-type span,
+    .img-repair-object-type span::after {
+        display: none;
+    }
+    .repair-apartments-title-label-price .label-price {
+        width: 125px;
+        height: 32px;
+        margin-top: 15px;
+        font-size: 11.63px;
+    }
+    .repair-apartments-title-label-price .label-price span {
+        font-size: 15.5px;
+    }
+    .repair-object-type-desc {
+        padding-left: 0;
+    }
+    .repair-object-type-desc p {
+        display: none;
+    }
+    .repair-object-type {
+        padding-top: 35px;
+    }
+    .repair-object-more {
+        display: none;
+    }
+    .repair-object-type a::before {
+        width: 10px;
+        height: 10px;
+    }
+    .repair-apartments .container form {
+        padding: 15px 10px;
+    }
+    .repair-apartments .container form input {
+        width: 100%;
+        height: 44px;
+        margin-bottom: 10px;
+    }
+    .repair-apartments .container form label {
+        width: 100%;
+    }
+    .repair-apartments .container form button p {
+        font-size: 16px;
+    }
+    .seo-text .container {
+        padding: 75px 0 60px 15px;
+    }
+    .seo-text h2 {
+        padding-left: 30px;
+        font-size: 18px;
+        line-height: 17px;
+    }
+    .repair-apartments-title-label-price h2::before, .seo-text h2::before {
+        left: -15px;
+        width: 35px;
+        height: 35px;
+        background-color: #e7f3fa;
+    }
+    .seo-text h6 {
+        padding: 25px 30px;
+    }
+    .main-types-of-repair {
+        padding-bottom: 0;
+    }
+    .main-types-of-repair-list {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .main-types-of-repair-item {
+        width: 100%;
+        padding-bottom: 55px;
+    }
+    .main-types-of-repair-item img {
+        height: 290px;
+    }
+    .main-types-of-repair-item p {
+        font-size: 16px;
+        line-height: 18px;
+        padding-bottom: 14px;
+    }
+    .main-types-of-repair-item ul li {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        line-height: 18px;
+        padding-bottom: 20px;
+    }
+    .main-types-of-repair-item h5 {
+        width: 100%;
+        margin-top: 25px;
+        padding: 15px 25px 20px;
+    }
+    .main-types-of-repair-item h5::before {
+        left: 40px;
+    }
+    .result-list {
+        flex-direction: column;
+    }
+    .result-item {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .result-item p {
+        width: 100%;
+    }
+    .question-cube {
+        width: 77px;
+        height: 77px;
+        border: 4px solid #cccccc;
+    }
+    .question-cube::before {
+        width: 46px;
+        height: 46px;
+    }
+    .question-cube img {
+        width: 30px;
+    }
+    .question-cube::after {
+        top: 70px;
+        border-top: 10px solid #cccccc;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+    }
+    .result-list {
+        padding-left: 12px;
+    }
+    .result-item {
+        padding-bottom: 40px;
+    }
+    .result-item h4 {
+        margin: auto 0 auto 14px;
+        padding-left: 20px;
+        font-size: 18px;
+        line-height: 16px;
+    }
+    .result-item h4::before {
+        width: 90px;
+        height: 40px;
+    }
+    .result-item p {
+        flex-direction: row;
+    }
+    .result-item p:nth-child(3) {
+        padding-top: 10px;
+    }
+    .result-item p span {
+        padding-right: 5px;
+    }
+    .calculate-cost .container {
+        margin-top: -605px;
+        padding: 35px 20px;
+    }
+    .calculate-cost-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .calculate-cost-our-work {
+        position: relative;
+        margin: auto;
+    }
+    .calculate-cost-order {
+        padding-top: 40px;
+        padding-left: 0;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+    .type-of-repair .type-of-repair-list .type-of-repair-item .label-price {
+        width: 110px;
+        font-size: 11.63px;
+    }
+    .type-of-repair-list {
+        margin-left: -10px;
+    }
+    .type-of-repair-item-kosmetic .overhaul {
+        top: 110px;
+    }
+    .type-of-repair-item-kosmetic .overhaul::before,
+    .type-of-repair-item-euro .overhaul::before {
+        left: 200px;
+    }
+    .type-of-repair-item-euro .overhaul {
+        left: 0;
+        top: 100px;
+    }
+    .type-of-repair-item .label-price span {
+        font-size: 15.51px;
+    }
+    .type-of-repair-item .label-price span::before {
+        right: -31px;
+    }
+    .type-of-repair-item h4 {
+        width: 200px;
+    }
+    .repair-apartments .container {
+        padding: 45px 12px 14px;
+    }
+    .contacts-service {
+        margin-top: 0;
+        padding: 0;
+        background-image: none;
+    }
+    .contacts-service .container {
+        width: 100%;
+    }
+    .contacts-service .contacts {
+        min-height: fit-content;
+        margin-bottom: 0;
+        padding: 30px 10px 20px;
+    }
+    .contacts-service .contacts a {
+        margin-bottom: 25px;
+    }
+    .contacts-service .service {
+        display: none;
+    }
+    .result {
+        padding-bottom: 0;
+    }
+    .calculate-cost {
+        padding: 20px 0;
+        background-color: #f2f2f2;
+    }
+    .calculate-cost .container {
+        margin: 0 auto;
+    }
+    .seo-text h2 {
+        display: flex;
+        align-items: center;
+    }
+    .result {
+        padding-top: 55px;
+    }
+    .result .section-title {
+        font-size: 18px;
+        color: #333333;
+    }
+    .result-item p {
+        padding-bottom: 20px;
+    }
+    .calculate-cost-our-work img {
+        width: 100%;
+    }
+    .repair-apartments-title-label-price h2 {
+        height: fit-content;
+    }
+    .repair-apartments-title-label-price {
+        align-items: flex-start;
+    }
+    .main-types-of-repair h3 {
+        font-size: 18px;
+    }
+}
+
+
+/* 320px - 400 */
+@media screen and (max-width: 400px) {
+    .type-of-repair-item .overhaul {
+        padding: 60px 15px 70px;
+    }
+    .calculate-cost-container {
+        padding-top: 30px;
+    }
+    .calculate-cost-our-work {
+        width: auto;
+        border: none;
+    }
+    .calculate-cost-our-work img {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .calculate-cost-our-work a {
+        position: absolute;
+        transform: none;
+        top: calc(50% - 17px);
+        left: calc(50% - 82px);
+    }
+}

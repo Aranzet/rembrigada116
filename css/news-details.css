@@ -1,0 +1,1354 @@
+html {
+    overflow-x: hidden;
+}
+
+.page-title .container {
+    display: flex;
+    align-items: flex-end;
+    width: 1155px;
+}
+
+.page-title p {
+    position: relative;
+    font-size: 130px;
+    font-family: "Next Art Bold", sans-serif;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.page-title p span {
+    position: absolute;
+    bottom: 5px;
+    right: -10px;
+    font-size: 18px;
+    letter-spacing: 0;
+    color: #8a8a8a;
+}
+
+.page-title h1 {
+    height: fit-content;
+    margin-left: 40px;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+}
+
+.bg-category-name {
+    position: absolute;
+    top: 395px;
+    left: 65%;
+    width: fit-content;
+    font-size: 110px;
+    font-family: "Next Art Semi Bold", sans-serif;
+    color: #afbcce;
+    letter-spacing: 0.01em;
+    opacity: .2;
+}
+
+main .container {
+    padding: 0 300px 0 200px;
+}
+
+.page-title .container {
+    padding: 0;
+}
+
+.vertical-social {
+    z-index: 10;
+}
+
+.type-news-date-author-comments-num,
+.date-author-comments-num {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0 30px;
+}
+
+.type-news-date-author-comments-num {
+    width: 755px;
+}
+
+.type-news {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #b6b6b6;
+}
+
+.type-news:hover {
+    color: #ed3947;
+}
+
+.type-news::before,
+.date::before,
+.author::before,
+.comments-num::before {
+    display: block;
+    content: '';
+    width: 16px;
+    height: 16px;
+    padding-right: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.type-news::before {
+    background-image: url(../img/rubrika.png);
+}
+
+.type-news:hover::before {
+    background-image: url(../img/rubrika-hover.png);
+}
+
+.date,
+.author,
+.comments-num {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 0.025em;
+    color: #b6b6b6;
+    text-decoration: none;
+}
+
+.date-author-comments-num {
+    width: 460px;
+    padding: 0;
+}
+
+.date::before {
+    background-image: url(../img/calendar.png);
+}
+
+.author::before {
+    background-image: url(../img/users2.png);
+}
+
+.comments-num::before {
+    background-image: url(../img/comments.png);
+}
+
+.img {
+    position: relative;
+    width: 755px;
+    height: 450px;
+    margin-bottom: 125px;
+}
+
+.img::after {
+    position: absolute;
+    top: 160px;
+    right: -70px;
+    display: block;
+    content: '';
+    width: 360px;
+    height: 360px;
+    border: 16px solid #ededed;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+.img img {
+    object-fit: cover;
+}
+
+.entry p {
+    line-height: 26px;
+    padding-bottom: 30px;
+}
+
+.main-paragraph {
+    position: relative;
+    padding: 90px 0 135px;
+}
+
+.main-paragraph h2 {
+    position: relative;
+    padding-bottom: 25px;
+    font-family: "Next Art Bold", sans-serif;
+    font-size: 36px;
+    line-height: 34px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.main-paragraph h2::before {
+    position: absolute;
+    left: -98px;
+    display: block;
+    content: '';
+    width: 68px;
+    height: 68px;
+    background-color: #d5d8df;
+}
+
+.main-paragraph p {
+    line-height: 26px;
+}
+
+.main-paragraph img {
+    width: 100%;
+    padding: 40px 0 50px;
+    object-fit: cover;
+}
+
+.main-paragraph h6,
+.third-paragraph h6,
+.wall-panel h6 {
+    position: absolute;
+    top: 275px;
+    right: -300px;
+    width: 200px;
+    padding: 45px 30px 65px;
+    background-color: #f9f9f9;
+    border: 2px solid #e5e5e5;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.main-paragraph h5,
+.second-paragraph h5 {
+    position: absolute;
+    top: 860px;
+    right: -300px;
+    width: 200px;
+    padding: 25px 30px 30px 25px;
+    background-color: #ffefb0;
+    font-size: 20px;
+    line-height: 24px;
+    color: #414141;
+}
+
+.main-paragraph table,
+.second-paragraph table {
+    margin: 55px 0 0;
+    border-top: 1px solid #e2e2e2;
+    border-collapse: collapse; 
+}
+
+.main-paragraph table tbody tr,
+.second-paragraph table tbody tr  {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.main-paragraph table tbody tr td,
+.second-paragraph table tbody tr td {
+    padding: 30px 0;
+    vertical-align: top;
+}
+
+.main-paragraph table tbody tr:first-child td,
+.second-paragraph table tbody tr:first-child td {
+    padding: 40px 0 35px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #9c9999;
+}
+
+.main-paragraph table tbody tr td span,
+.second-paragraph table tbody tr td span {
+    display: block;
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #999999;
+}
+
+.main-paragraph table tbody tr td:first-child,
+.second-paragraph table tbody tr td:first-child {
+    width: 295px;
+    padding-right: 130px;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: bold;
+    color: #9c9999;
+
+}
+
+.main-paragraph table tbody tr td:nth-child(2),
+.second-paragraph table tbody tr td:nth-child(2),
+.second-paragraph table tbody tr td:nth-child(3) {
+    width: 200px;
+    padding-right: 80px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.main-paragraph table tbody tr td:last-child,
+.second-paragraph table tbody tr td:last-child {
+    width: 155px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.second-paragraph {
+    position: relative;
+}
+
+.second-paragraph h3 {
+    padding-bottom: 25px;
+    font-size: 28px;
+    line-height: 30px;
+    font-family: "Next Art Bold", sans-serif;
+}
+
+.second-paragraph p {
+    line-height: 26px;
+    padding-bottom: 40px;
+}
+
+.second-paragraph h5 {
+    top: 180px;
+}
+
+.second-paragraph table {
+    margin: 0 0 130px;
+}
+
+.second-paragraph table tbody tr td:first-child {
+    width: 175px;
+    padding-right: 35px;
+}
+
+.second-paragraph table tbody tr td:nth-child(2) {
+    width: 175px;
+    padding-right: 30px;
+}
+
+.second-paragraph table tbody tr td:nth-child(3) {
+    width: 190px;
+    padding-right: 30px;
+}
+
+.second-paragraph table tbody tr td:last-child {
+    width: 110px;
+}
+
+.third-paragraph {
+    position: relative;
+}
+
+.third-paragraph h4 {
+    padding-bottom: 35px;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    font-family: "Next Art Bold", sans-serif;
+}
+
+.third-paragraph p {
+    line-height: 26px;
+    padding-bottom: 35px;
+}
+
+.third-paragraph p a {
+    color: #23a6f8;
+}
+
+.third-paragraph ul,
+.second-paragraph ul {
+    padding-left: 100px;
+    list-style: none;
+}
+
+.third-paragraph ul p,
+.second-paragraph ul p {
+    padding-bottom: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #8b929b;
+}
+
+.third-paragraph ul li,
+.second-paragraph ul li {
+    position: relative;
+    line-height: 20px;
+    padding-bottom: 25px;
+    margin-left: 70px;
+}
+
+.third-paragraph ul li span:first-child,
+.second-paragraph ul li span:first-child {
+    position: absolute;
+    top: 4px;
+    left: -35px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Next Art Bold", sans-serif;
+    color: #bcbcbc;
+    z-index: 1;
+}
+
+.third-paragraph ul li span:last-child,
+.second-paragraph ul li span:last-child {
+    font-weight: bold;
+}
+
+.third-paragraph ul li span:first-child::before,
+.second-paragraph ul li span:first-child::before {
+    position: absolute;
+    top: -8px;
+    left: -16px;
+    display: block;
+    content: '';
+    width: 33px;
+    height: 33px;
+    border: 4px solid #ededed;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+.third-paragraph ul li a:visited,
+.second-paragraph ul li a:visited {
+    color: #cc66ff;
+}
+
+.third-paragraph ul:last-child li:last-child {
+    padding-bottom: 105px;
+}
+
+.third-paragraph h6 {
+    top: 575px;
+}
+
+.third-paragraph img {
+    width: 100%;
+    padding: 10px 0 40px;
+}
+
+.wall-panel p:nth-child(2) {
+    padding-bottom: 20px;
+}
+
+.wall-panel img {
+    width: 100%;
+    padding: 10px 0 35px;
+}
+
+.wall-panel h6 {
+    top: 315px;
+}
+
+.second-paragraph ul:last-child li:last-child {
+    padding-bottom: 135px;
+}
+
+.installation-wall-panel h3 {
+    padding-bottom: 35px;
+}
+
+.installation-wall-panel p {
+    padding-bottom: 30px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0 84px 8px;
+}
+
+.tags a {
+    position: relative;
+    height: 24px;
+    padding: 0 8px 0 2px;
+    margin-right: 22px;
+    margin-bottom: 6px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+    background-color: #1d1e21;
+    color: #b6b6b6;
+    text-decoration: none;
+}
+
+.tags a:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.tags a::before {
+    content: '#';
+}
+
+.tags a span {
+    position: absolute;
+    top: 4px;
+    left: -8px;
+    display: block;
+    content: '';
+    width: 16px;
+    height: 16px;
+    transform: rotate(45deg);
+    background-color: #1d1e21;
+    z-index: -1;
+}
+
+.tags a:hover span {
+    background-color: #000;
+}
+
+.social-page .container {
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+}
+
+.social-page .social-comments {
+    display: flex;
+    align-items: center;
+}
+
+.social-page .social-comments a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.025em;
+    color: #b6b6b6;
+}
+
+.social-page .social-comments a::before {
+    display: block;
+    content: '';
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-image: url(../img/comments.png);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+.interested-news .container {
+    padding: 50px 0 35px;
+}
+
+.interested-news p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #414141;
+}
+
+.interested-news .interested-news-list {
+    display: flex;
+    justify-content: space-between;
+    height: 630px;
+    padding-top: 25px;
+}
+
+.interested-news .interested-news-item {
+    width: 360px;
+    height: 100%;
+    padding: 60px 20px 60px 25px;
+    background-color: #f9f9f9;
+    border: 2px solid #f4f4f4;
+    transition: all ease .5s;
+}
+
+.interested-news .interested-news-item:hover {
+    width: 385px;
+    height: 640px;
+    padding: 65px 45px 45px 40px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 0 20px 5px #e7e7e7;
+    transition: all ease .5s;
+}
+
+.interested-news .interested-news-item .date {
+    padding-bottom: 6px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.interested-news .interested-news-item .date::before {
+    display: none;
+}
+
+.interested-news .interested-news-item .interested-news-title {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 17px;
+}
+
+.interested-news .interested-news-item .interested-news-title h4 {
+    padding-bottom: 11px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.interested-news .interested-news-item .interested-news-title:hover h4 {
+    padding-bottom: 8px;
+}
+
+.interested-news .interested-news-item .interested-news-title hr {
+    display: none;
+    width: 64px;
+    height: 3px;
+    background-color: #f9152e;
+    border: none;
+}
+
+.interested-news .interested-news-item .interested-news-title:hover hr {
+    display: block;
+}
+
+.interested-news .interested-news-item p:nth-child(3) {
+    padding-bottom: 25px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666666;
+    font-weight: normal;
+}
+
+.interested-news .interested-news-item img {
+    width: 100%;
+    max-height: 315px;
+    object-fit: cover
+}
+
+.comments {
+    background-color: #f1f4f6;
+}
+
+.comments .container {
+    padding: 40px 100px 45px;
+}
+
+.comments-title {
+    padding-bottom: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+.comments-list {
+    padding-top: 38px;
+    border-top: 1px solid #e7e7e7;
+}
+
+.comments-item {
+    padding-bottom: 16px;
+}
+
+.comments-item .comments-author-date,
+.comments-item .comments-author-date .img-author  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comments-item .comments-author-date .img-author img {
+    display: block;
+    width: 23px;
+    height: 23px;
+    background-color: #c4c4c4;
+}
+
+.comments-item .comments-author-date .comments-author {
+    padding-left: 10px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: #a8aaa9;
+}
+
+.comments-item .comments-author-date .comments-date {
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+
+.comments-item .comments-text {
+    font-size: 16px;
+    padding: 8px 0 4px;
+}
+
+.comments-item a {
+    font-size: 16px;
+    color: #23a6f8;
+}
+
+.comments-answer {
+    padding-left: 100px;
+}
+
+.add-comments {
+    padding: 70px 120px 85px;
+    margin-top: 35px;
+    background-color: #e5e8ea;
+}
+
+.add-comments h5 {
+    padding-bottom: 15px;
+    font-size: 24px;
+    color: #666666;
+}
+
+.add-comments label p {
+    padding: 20px 0 4px 2px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.add-comments label:last-child p {
+    padding-top: 30px;
+}
+
+.add-comments label input,
+.add-comments label textarea {
+    width: 100%;
+    height: 42px;
+    padding: 0 12px;
+    border: 1px solid #e2e2e2;
+    font-size: 14px;
+    letter-spacing: 0.025em;
+    color: #666666;
+    font-family: "Arimo", sans-serif;
+}
+
+.add-comments label textarea {
+    height: 165px;
+    padding: 12px;
+}
+
+.add-comments label .comments-transform {
+    display: flex;
+    align-items: center;
+    padding: 40px 0 5px;
+}
+
+.add-comments label .comments-transform a {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center bottom;
+}
+
+.add-comments label .comments-transform .comments-text-transform,
+.add-comments label .comments-transform .comments-additional-transform {
+    display: flex;
+    padding-right: 25px;
+}
+
+.add-comments label .comments-transform .bold {
+    background-image: url(../img/bold.png);
+}
+
+.add-comments label .comments-transform .italic {
+    background-image: url(../img/italic.png);
+}
+
+.add-comments label .comments-transform .underline {
+    background-image: url(../img/underline.png);
+}
+
+.add-comments label .comments-transform .line-through {
+    background-image: url(../img/line-through.png);
+}
+
+.add-comments label .comments-transform .reply {
+    background-image: url(../img/reply.png);
+}
+
+.add-comments label .comments-transform .code {
+    background-image: url(../img/code.png);
+}
+
+.add-comments label .comments-transform .link {
+    background-image: url(../img/link.png);
+}
+
+.add-comments label .comments-transform .document {
+    background-image: url(../img/document.png);
+}
+
+.add-comments .preview-add-comments-btn {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.add-comments .preview-add-comments-btn .preview {
+    font-size: 14px;
+    letter-spacing: 0.025em;
+    color: #000;
+}
+
+.add-comments .preview-add-comments-btn .add-comments-btn {
+    margin: 0 0 0 40px;
+}
+
+.add-comments .preview-add-comments-btn .add-comments-btn p {
+    padding-left: 38px;
+    background-color: #d52437;
+    border: 3px solid #d52437;
+    line-height: 40px;
+}
+
+.add-comments .preview-add-comments-btn .add-comments-btn span {
+    width: 60px;
+    border: 3px solid #d52437;
+    border-left: none;
+}
+
+.add-comments .preview-add-comments-btn .add-comments-btn span::before,
+.add-comments .preview-add-comments-btn .add-comments-btn span::after {
+    left: 24px;
+    width: 12px;
+    height: 3px;
+    background-color: #d52437;
+}
+
+.add-comments .preview-add-comments-btn .add-comments-btn span::before {
+    top: calc(50% - 5px);
+}
+
+.add-comments .preview-add-comments-btn .add-comments-btn span::after {
+    top: calc(50% + 2px);
+}
+
+.contacts-footer-form .container {
+    padding: 0;
+}
+
+/* Адаптивность */
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    html {
+        overflow: auto;
+    }
+    .bg-category-name {
+        display: none;
+    }
+    .type-news-date-author-comments-num {
+        width: auto;
+    }
+    .page-title .container {
+        width: 960px;
+        align-items: center;
+    }
+    .page-title h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    main .container {
+        padding: 0;
+    }
+    .main-paragraph img {
+        padding-top: 25px;
+    }
+    .main-paragraph h6, .third-paragraph h6, .wall-panel h6 {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+        padding: 20px 50px;
+        margin-bottom: 25px;
+    }
+    .main-paragraph h5, .second-paragraph h5 {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: fit-content;
+        padding: 15px 30px 10px;
+        margin-top: 35px;
+    }
+    .main-paragraph table, .second-paragraph table {
+        margin-top: 0;
+    }
+    .main-paragraph table tbody tr td:first-child, .second-paragraph table tbody tr td:first-child {
+        width: 375px;
+    }
+    .main-paragraph table tbody tr td:nth-child(2), .second-paragraph table tbody tr td:nth-child(2), .second-paragraph table tbody tr td:nth-child(3) {
+        width: 270px;
+    }
+    .main-paragraph table tbody tr td:last-child, .second-paragraph table tbody tr td:last-child {
+        width: 235px;
+    }
+    .social-page .page .prev-page, .social-page .page .next-page {
+        width: 140px;
+        height: 30px;
+        font-size: 11.16px;
+        letter-spacing: 0.5em;
+    }
+    .social-page .page .next-page {
+        margin-left: 5px;
+    }
+    .interested-news .interested-news-list {
+        height: 660px;
+    }
+    .interested-news .interested-news-item {
+        width: 270px;
+    }
+    .interested-news .interested-news-item:hover {
+        width: 305px;
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .page-title .container {
+        width: 750px;
+    }
+    .page-title p {
+        font-size: 76px;
+    }
+    .page-title p span {
+        font-size: 11px;
+        right: -5px;
+    }
+    .page-title h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    main .container {
+        width: 655px;
+    }
+    .img {
+        width: 100%;
+        height: 395px;
+        margin-bottom: 60px;
+    }
+    .img img {
+        width: 100%;
+    }
+    .img::after {
+        top: 125px;
+        right: -35px;
+        width: 310px;
+        height: 310px;
+        border: 14px solid #ededed;
+    }
+    .type-news-date-author-comments-num, .date-author-comments-num {
+        padding: 10px 0;
+    }
+    .date-author-comments-num {
+        width: 430px;
+    }
+    .entry p,
+    .main-paragraph p,
+    .second-paragraph p,
+    .third-paragraph p {
+        padding-bottom: 15px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .main-paragraph {
+        padding: 50px 0 80px;
+    }
+    .main-paragraph h2 {
+        padding-bottom: 50px;
+        font-size: 21px;
+        line-height: 24px;
+    }
+    .main-paragraph h2::before {
+        top: 5px;
+        left: -48px;
+        width: 40px;
+        height: 40px;
+    }
+    .main-paragraph img {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .main-paragraph h5 {
+        margin-top: 20px;
+    }
+    .second-paragraph h3 {
+        padding-bottom: 20px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .second-paragraph h5 {
+        margin-top: 5px;
+    }
+    .main-paragraph table tbody tr:first-child td,
+    .second-paragraph table tbody tr:first-child td {
+        padding: 20px 0;
+    }
+    .main-paragraph table tbody tr td,
+    .main-paragraph table tbody tr td span,
+    .second-paragraph table tbody tr td,
+    .second-paragraph table tbody tr td span {
+        font-size: 14px !important;
+    }
+    .main-paragraph table tbody tr td:first-child,
+    .second-paragraph table tbody tr td:first-child {
+        width: 220px;
+        padding-right: 15px;
+    }
+    .main-paragraph table tbody tr td:nth-child(2), 
+    .second-paragraph table tbody tr td:nth-child(2),
+    .second-paragraph table tbody tr td:nth-child(3) {
+        width: 220px;
+        padding-right: 35px;
+    }
+    .main-paragraph table tbody tr td:last-child,
+    .second-paragraph table tbody tr td:last-child {
+        width: 210px;
+        padding-right: 15px;
+    }
+    .second-paragraph table {
+        margin-bottom: 90px;
+    }
+    .third-paragraph h4 {
+        padding-bottom: 25px;
+    }
+    .third-paragraph p {
+        padding-bottom: 30px;
+    }
+    .third-paragraph ul,
+    .second-paragraph ul {
+        padding-left: 75px;
+    }
+    .second-paragraph ul p {
+        padding-bottom: 18px;
+    }
+    .third-paragraph ul li,
+    .second-paragraph ul li {
+        width: 470px;
+        font-size: 16px;
+        line-height: 18px;
+        padding-bottom: 25px;
+    }
+    .third-paragraph img {
+        display: flex;
+        width: 540px;
+        margin: 0 auto;
+        padding: 0 0 10px;
+    }
+    .second-paragraph ul {
+        display: none;
+    }
+    .wall-panel img {
+        padding-bottom: 85px;
+    }
+    .tags {
+        padding-bottom: 75px;
+    }
+    .page {
+        margin-right: 0;
+    }
+    .social-page .container {
+        padding: 10px 0 !important;
+    }
+    .social-page .social-comments a {
+        font-size: 14px;
+    }
+    .social-page .social-comments a::before {
+        margin-right: 5px;
+    }
+    .social-page .page .prev-page::before {
+        left: -10px;
+        width: 13px;
+    }
+    .social-page .page .next-page::after {
+        right: -10px;
+        width: 13px;
+    }
+    .interested-news .container {
+        width: 750px;
+        padding: 25px 0;
+    }
+    .interested-news .interested-news-list {
+        height: 415px;
+    }
+    .interested-news .interested-news-item {
+        width: 240px;
+        padding: 25px 15px;
+    }
+    .interested-news .interested-news-item:hover {
+        width: 255px;
+        padding: 25px 20px;
+    }
+    .interested-news .interested-news-item .interested-news-title h4 {
+        line-height: 14px;
+    }
+    .interested-news .interested-news-item p:nth-child(3) {
+        display: none;
+    }
+    .interested-news .interested-news-item img {
+        max-height: 230px;
+    }
+    .interested-news .interested-news-item:hover {
+        height: auto;
+    }
+    .comments .container {
+        width: 750px;
+        padding: 25px 0 30px;
+    }
+    .comments-title {
+        padding-bottom: 15px;
+        font-size: 18px;
+    }
+    .comments-list {
+        padding: 20px 50px 0 50px;
+    }
+    .comments-item .comments-text,
+    .comments-item a {
+        font-size: 14px;
+    }
+    .comments-answer {
+        padding-left: 60px;
+    }
+    .add-comments {
+        width: 710px;
+        margin: 0 auto;
+        padding: 45px 25px 25px;
+    }
+    .add-comments h5 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .add-comments label p {
+        padding-top: 15px;
+    }
+    .add-comments label .comments-transform {
+        padding-top: 20px;
+    }
+    .add-comments label textarea {
+        height: 115px;
+    }
+    .add-comments .preview-add-comments-btn {
+        padding-top: 20px;
+    }
+    .add-comments .preview-add-comments-btn .add-comments-btn {
+        height: 56px;
+    }
+    .add-comments .preview-add-comments-btn .add-comments-btn p {
+        line-height: 48px;
+        border-top-left-radius: 28px;
+        border-bottom-left-radius: 28px;
+    }
+    .add-comments .preview-add-comments-btn .add-comments-btn span {
+        border-top-right-radius: 28px;
+        border-bottom-right-radius: 28px;
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    .page-title .container {
+        width: 90%;
+        align-items: flex-start;
+    }
+    main .container {
+        padding: 0 10px;
+    }
+    .page-title p {
+        font-size: 66px;
+    }
+    .page-title p span {
+        font-size: 12px;
+    }
+    .page-title h1 {
+        font-size: 32px;
+        line-height: 28px;
+    }
+    .date-author-comments-num {
+        width: fit-content;
+    }
+    .date, .author {
+        display: none;
+    }
+    .img {
+        height: 190px;
+    }
+    .img img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .img::after {
+        top: 25px;
+        right: -25px;
+        width: 210px;
+        height: 210px;
+    }
+    .main-paragraph h2 {
+        margin-left: 30px;
+        padding-bottom: 25px;   
+    }
+    .third-paragraph img {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .third-paragraph ul, .second-paragraph ul {
+        padding-left: 0;
+    }
+    .third-paragraph ul li, .second-paragraph ul li {
+        width: auto;
+        margin-left: 50px;
+    }
+    .social-page .social-comments {
+        display: none;
+    }
+    .interested-news .interested-news-list {
+        flex-direction: column;
+        height: fit-content;
+    }
+    .comments .container {
+        width: 90%;
+    }
+    .add-comments {
+        width: 100%;
+    }
+    .comments-list {
+        padding: 20px 0 0;
+    }
+    .interested-news .container {
+        width: 90%;
+    }
+    .interested-news .interested-news-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .interested-news .interested-news-item:hover {
+        width: 100%;
+        padding: 25px 20px;
+    }
+    .interested-news .interested-news-item .date {
+        display: flex;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+    html {
+        overflow-x: hidden;
+    }
+    .type-news-date-author-comments-num {
+        width: 100%;
+        padding: 0 8px;
+        position: absolute;
+        left: 0;
+        z-index: 10;
+    }
+    .entry {
+        padding-top: 35px;
+    }
+    .entry .img {
+        position: absolute;
+        left: 0;
+    }
+    .entry p:nth-child(2) {
+        padding-top: 250px;
+    }
+    .page-title h1 {
+        padding-right: 5px;
+        margin-left: 15px;
+    }
+    .tags a {
+        height: fit-content;
+        font-size: 14px;
+        line-height: 14px;
+        margin-right: 10px;
+    }
+    .tags a span {
+        top: 3px;
+        left: -5px;
+        width: 9px;
+        height: 9px;
+    }
+    .wall-panel img {
+        display: none;
+    }
+    .comments-item .comments-author-date .comments-author {
+        font-size: 12px;
+        padding-left: 4px;
+    }
+    .comments-answer {
+        padding-left: 10px;
+    }
+    .comments-answer .comments-author span {
+        display: none;
+    }
+    .add-comments {
+        padding: 35px 10px 25px;
+    }
+    .add-comments .preview-add-comments-btn {
+        padding-top: 14px;
+    }
+    .add-comments .preview-add-comments-btn .preview {
+        font-size: 12px;
+    }
+    .add-comments .preview-add-comments-btn .add-comments-btn {
+        margin-left: 20px;
+        height: 46px;
+    }
+    .add-comments .preview-add-comments-btn .add-comments-btn p {
+        width: 130px;
+        padding-left: 18px;
+        line-height: 38px;
+    }
+    .add-comments .preview-add-comments-btn .add-comments-btn span {
+        width: 34px;
+    }
+    .add-comments .preview-add-comments-btn .add-comments-btn span::before,
+    .add-comments .preview-add-comments-btn .add-comments-btn span::after {
+        left: 10px;
+    }
+    .main-paragraph table tbody tr td, .second-paragraph table tbody tr td {
+        padding: 10px 0;
+        word-break: break-all;
+        
+    }
+    .main-paragraph table tbody tr td, .main-paragraph table tbody tr td span, .second-paragraph table tbody tr td, .second-paragraph table tbody tr td span {
+        line-height: 16px !important;
+    }
+    .main-paragraph table tbody tr td:first-child, .second-paragraph table tbody tr td:first-child {
+        width: 75px;
+        padding-right: 15px;
+    }
+    .main-paragraph table tbody tr td:nth-child(2), .second-paragraph table tbody tr td:nth-child(2), .second-paragraph table tbody tr td:nth-child(3) {
+        width: 140px;
+        padding-right: 20px;
+    }
+    .main-paragraph table tbody tr td:last-child, .second-paragraph table tbody tr td:last-child {
+        width: 90px;
+    }
+    .scroll-table {
+        position: relative;
+        overflow: auto;
+        max-width: 400px;;
+    }
+    .scroll-table table {
+        width: 500px;
+    }
+    .second-paragraph table {
+        margin-bottom: 0;
+    }
+    .second-paragraph:first-child {
+        margin-bottom: 90px;
+    }
+    .main-paragraph h2 {
+        font-size: 18px;
+    }
+    .main-paragraph h5 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .second-paragraph h3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .third-paragraph h4 {
+        padding-top: 60px;
+        font-size: 15px;
+        line-height: 14px;
+    }
+}
