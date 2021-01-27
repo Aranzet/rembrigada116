@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: CorelDRAW X6 -->
+
+<?xml-stylesheet href="door1.css" type="text/css"?><svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xml:space="preserve"
+   width="75.875"
+   height="128.02669"
+   version="1.1"
+   style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+   viewBox="0 0 75875 128026.69"
+   id="svg6"
+   sodipodi:docname="door1.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata12"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs10" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="640"
+   inkscape:window-height="480"
+   id="namedview8"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="5.2149125"
+   inkscape:cx="88.234562"
+   inkscape:cy="67.03228"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg6" />
+ <g
+   id="Слой_x0020_1"
+   transform="translate(-26063,14.683174)">
+  <metadata
+   id="CorelCorpID_0Corel-Layer" />
+  <path
+   class="fil0"
+   d="M 99748,14 H 28253 c -1210,0 -2190,981 -2190,2191 v 16676 c 0,2881 4381,2879 4381,0 V 4395 H 97558 V 123632 H 30444 V 26106 c 0,-2880 -4381,-2881 -4381,0 v 99715 c 0,1210 981,2191 2190,2191 h 71495 c 1210,0 2190,-981 2190,-2191 V 2203 C 101938,249 99748,-132 99748,13 Z M 68769,53190 h 21748 c 1210,0 2190,-981 2190,-2191 V 36587 c 0,-1210 -981,-2191 -2190,-2191 H 68769 c -1210,0 -2190,981 -2190,2191 v 14412 c 0,1210 981,2191 2190,2191 z M 70960,38778 H 88327 V 48809 H 70960 Z M 37513,53190 h 21748 c 1210,0 2190,-981 2190,-2191 V 36587 c 0,-1210 -981,-2191 -2190,-2191 H 37513 c -1210,0 -2190,981 -2190,2191 v 14412 c 0,1210 981,2191 2190,2191 z M 39704,38778 H 57071 V 48809 H 39704 Z m 7628,21609 h -5832 c -166,-1046 -1071,-1845 -2163,-1845 -1210,0 -2191,981 -2191,2190 0,2225 1810,4036 4035,4036 h 6151 c 2881,0 2883,-4381 0,-4381 z m 43191,9610 H 68774 c -1210,0 -2191,981 -2191,2190 v 44409 c 0,1210 981,2191 2191,2191 h 21748 c 1210,0 2191,-981 2191,-2191 V 72187 c 0,-1209 -981,-2190 -2190,-2190 z m -2191,44409 H 70965 v -40029 0 H 88332 Z M 59226,100413 c 1210,0 2190,-981 2190,-2191 V 72187 c 0,-1210 -981,-2190 -2190,-2190 H 37478 c -1210,0 -2191,981 -2191,2190 v 44409 c 0,1210 981,2191 2191,2191 h 21748 c 1210,0 2190,-981 2190,-2191 v -11455 c 0,-1210 -981,-2191 -2190,-2191 -1210,0 -2191,981 -2191,2191 v 9265 H 39668 V 74377 h 17367 v 23844 c 0,1210 981,2191 2191,2191 z M 90523,9240 H 78763 c -2881,0 -2883,4381 0,4381 h 9569 V 23652 H 70965 V 13621 h 1033 c 2881,0 2883,-4381 0,-4381 h -3223 c -1210,0 -2191,981 -2191,2191 v 14412 c 0,1210 981,2191 2191,2191 h 21748 c 1210,0 2191,-981 2191,-2190 V 11432 c 0,-2110 -2044,-2045 -2191,-2192 z m -31297,0 H 37478 c -1210,0 -2190,981 -2190,2191 v 14412 c 0,1210 981,2191 2190,2191 h 21748 c 1210,0 2190,-981 2190,-2191 V 11431 c 0,-1210 -981,-2191 -2190,-2191 z M 57035,23652 H 39668 V 13621 h 17367 z"
+   id="path3"
+   inkscape:connector-curvature="0" />
+ </g>
+</svg>

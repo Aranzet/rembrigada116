@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: CorelDRAW X6 -->
+
+<?xml-stylesheet href="door.css" type="text/css"?><svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xml:space="preserve"
+   width="75.875"
+   height="128.02669"
+   version="1.1"
+   style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+   viewBox="0 0 75875 128026.69"
+   id="svg6"
+   sodipodi:docname="door.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata12"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs10" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="640"
+   inkscape:window-height="480"
+   id="namedview8"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="5.2149125"
+   inkscape:cx="70.680826"
+   inkscape:cy="56.781386"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg6" />
+ <g
+   id="Слой_x0020_1"
+   transform="translate(-26063,27.683174)">
+  <metadata
+   id="CorelCorpID_0Corel-Layer" />
+  <path
+   class="fil0"
+   d="M 99748,1 H 28253 c -1210,0 -2190,981 -2190,2191 v 16676 c 0,2881 4381,2879 4381,0 V 4382 H 97558 V 123619 H 30444 V 26093 c 0,-2880 -4381,-2881 -4381,0 v 99715 c 0,1210 981,2191 2190,2191 h 71495 c 1210,0 2190,-981 2190,-2191 V 2190 C 101938,236 99748,-145 99748,0 Z M 64000,24834 c -1657,0 -3000,-1343 -3000,-3000 0,-1657 1343,-3000 3000,-3000 1657,0 3000,1343 3000,3000 0,1657 -1343,3000 -3000,3000 z M 47702,62960 h -5832 c -166,-1046 -1071,-1845 -2163,-1845 -1210,0 -2191,981 -2191,2190 0,2225 1810,4036 4035,4036 h 6151 c 2881,0 2883,-4381 0,-4381 z"
+   id="path3"
+   inkscape:connector-curvature="0" />
+ </g>
+</svg>
