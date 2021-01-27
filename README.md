@@ -22,3 +22,4 @@
 - Карта сайта: https://aranzet.github.io/rembrigada116/site-map.html
 - 404: https://aranzet.github.io/rembrigada116/404.html
 
+![HomePage](Home.jpg?raw=true "Главная страница")
